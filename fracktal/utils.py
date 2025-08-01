@@ -7,19 +7,24 @@ These functions require matplotlib and seaborn to be installed.
 
 import numpy as np
 import pandas as pd
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Any
 import hashlib
 import json
 from datetime import datetime
+
+# Import FRACKTAL models
+from .models import CodexMap, SymbolicTree, FractalHash
 
 # Optional imports for visualization
 try:
     import matplotlib.pyplot as plt
     import seaborn as sns
+    import networkx as nx
+    import plotly.graph_objects as go
     _has_visualization = True
 except ImportError:
     _has_visualization = False
-    print("Warning: matplotlib/seaborn not available. Visualization functions disabled.")
+    print("Warning: matplotlib/seaborn/networkx/plotly not available. Visualization functions disabled.")
 
 
 def entropy_analysis(codex_map: CodexMap, hash_depths: List[int] = None) -> Dict[str, Any]:
@@ -83,7 +88,7 @@ def _calculate_entropy(data: str) -> float:
 
 def visualize_tree(symbolic_tree: SymbolicTree, 
                   output_path: Optional[str] = None,
-                  interactive: bool = True) -> go.Figure:
+                  interactive: bool = True):
     """
     Create an interactive visualization of the Recursive Symbolic Ontology tree.
     
@@ -93,8 +98,12 @@ def visualize_tree(symbolic_tree: SymbolicTree,
         interactive: Whether to create an interactive plotly figure
         
     Returns:
-        Plotly figure object
+        Plotly figure object or None if visualization not available
     """
+    if not _has_visualization:
+        print("Visualization not available. Install matplotlib, seaborn, networkx, and plotly.")
+        return None
+        
     # Create NetworkX graph
     G = nx.DiGraph()
     
@@ -264,8 +273,12 @@ def _get_depth_distribution(symbolic_tree: SymbolicTree) -> Dict[int, int]:
     return depth_counts
 
 
-def _create_entropy_plot(entropy_data: Dict[str, Any]) -> go.Figure:
+def _create_entropy_plot(entropy_data: Dict[str, Any]):
     """Create entropy analysis plot."""
+    if not _has_visualization:
+        print("Visualization not available. Install plotly.")
+        return None
+        
     fig = go.Figure()
     
     fig.add_trace(go.Scatter(
@@ -301,8 +314,12 @@ def _create_entropy_plot(entropy_data: Dict[str, Any]) -> go.Figure:
     return fig
 
 
-def _create_frequency_plot(frequency_data: Dict[str, int], title: str) -> go.Figure:
+def _create_frequency_plot(frequency_data: Dict[str, int], title: str):
     """Create frequency distribution plot."""
+    if not _has_visualization:
+        print("Visualization not available. Install plotly.")
+        return None
+        
     # Sort by frequency
     sorted_items = sorted(frequency_data.items(), key=lambda x: x[1], reverse=True)
     labels, values = zip(*sorted_items[:20])  # Top 20
@@ -322,7 +339,7 @@ def _create_frequency_plot(frequency_data: Dict[str, int], title: str) -> go.Fig
 
 
 def compare_codexes(codex_maps: List[CodexMap], 
-                   labels: Optional[List[str]] = None) -> go.Figure:
+                   labels: Optional[List[str]] = None):
     """
     Compare multiple CodexMaps side by side.
     
@@ -331,8 +348,12 @@ def compare_codexes(codex_maps: List[CodexMap],
         labels: Optional labels for each codex
         
     Returns:
-        Plotly figure with comparison visualizations
+        Plotly figure with comparison visualizations or None if visualization not available
     """
+    if not _has_visualization:
+        print("Visualization not available. Install plotly.")
+        return None
+        
     if labels is None:
         labels = [f"Codex {i+1}" for i in range(len(codex_maps))]
     
@@ -368,7 +389,7 @@ def compare_codexes(codex_maps: List[CodexMap],
 
 
 def create_symbolic_heatmap(codex_map: CodexMap, 
-                          window_size: int = 5) -> go.Figure:
+                          window_size: int = 5):
     """
     Create a heatmap showing symbolic patterns in the codex.
     
@@ -377,8 +398,12 @@ def create_symbolic_heatmap(codex_map: CodexMap,
         window_size: Size of sliding window for pattern analysis
         
     Returns:
-        Plotly heatmap figure
+        Plotly heatmap figure or None if visualization not available
     """
+    if not _has_visualization:
+        print("Visualization not available. Install plotly.")
+        return None
+        
     symbols = codex_map.get_symbol_sequence()
     
     # Create sliding window patterns
