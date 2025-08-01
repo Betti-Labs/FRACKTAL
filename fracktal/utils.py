@@ -1,21 +1,25 @@
 """
-FRSOE Utility Functions
+FRACKTAL Utilities: Visualization and Analysis Tools
 
-This module contains utility functions for visualization, analysis, and
-codex generation for the FRSOE system.
+Optional utilities for analyzing and visualizing FRACKTAL compression results.
+These functions require matplotlib and seaborn to be installed.
 """
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-import plotly.graph_objects as go
-import plotly.express as px
-import networkx as nx
-import pandas as pd
 import numpy as np
-from typing import Dict, List, Any, Optional, Tuple
-from .models import CodexMap, SymbolicTree
+import pandas as pd
+from typing import Dict, List, Optional, Tuple
 import hashlib
+import json
 from datetime import datetime
+
+# Optional imports for visualization
+try:
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    _has_visualization = True
+except ImportError:
+    _has_visualization = False
+    print("Warning: matplotlib/seaborn not available. Visualization functions disabled.")
 
 
 def entropy_analysis(codex_map: CodexMap, hash_depths: List[int] = None) -> Dict[str, Any]:
