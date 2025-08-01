@@ -17,7 +17,7 @@ setup(
     name="fracktal",
     version="1.0.0",
     author="Gregory Betti",
-    author_email="greyos.labs@gmail.com",
+    author_email="gorygrey@protonmail.com",
     description="Advanced semantic compression through recursive symbolic pattern recognition",
     long_description=read_readme(),
     long_description_content_type="text/markdown",

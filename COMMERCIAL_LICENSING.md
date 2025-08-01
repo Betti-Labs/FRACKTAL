@@ -60,7 +60,7 @@ Commercial license holders receive:
 ## Application Process
 
 ### 1. Initial Contact
-Email your commercial licensing inquiry to: **greyos.labs@gmail.com**
+Email your commercial licensing inquiry to: **gorygrey@protonmail.com**
 
 Include:
 - Company name and description
@@ -129,12 +129,12 @@ We believe in working with companies in good faith. If you're unsure about licen
 ## Contact Information
 
 **Commercial Licensing Inquiries:**
-- Email: greyos.labs@gmail.com
+- Email: gorygrey@protonmail.com
 - Subject: "FRACKTAL Commercial License Inquiry"
 - Response Time: 24-48 hours
 
 **Technical Support (Commercial License Holders):**
-- Email: greyos.labs@gmail.com
+- Email: gorygrey@protonmail.com
 - Subject: "FRACKTAL Commercial Support"
 - Response Time: 4-8 hours
 

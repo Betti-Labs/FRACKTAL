@@ -216,7 +216,7 @@ FRACKTAL is released under a **dual-licensing model**:
 - **Enterprise software**: Internal tools, commercial applications
 - **Products sold to customers**: Software licenses, commercial services
 
-**Commercial licensing inquiries**: Contact greyos.labs@gmail.com
+**Commercial licensing inquiries**: Contact gorygrey@protonmail.com
 
 For complete license terms, see [LICENSE](LICENSE).  
 For commercial licensing details, see [COMMERCIAL_LICENSING.md](COMMERCIAL_LICENSING.md).
@@ -237,7 +237,7 @@ If you use FRACKTAL in your research, please cite:
 ## Author
 
 **Gregory Betti** - Betti Labs  
-Email: greyos.labs@gmail.com  
+Email: gorygrey@protonmail.com  
 GitHub: [@Betti-Labs](https://github.com/Betti-Labs)
 
 ---

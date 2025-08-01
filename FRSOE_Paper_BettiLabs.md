@@ -144,5 +144,5 @@ FRSOE proves that **recursive symbolic compression** is not only viable — it's
 ---
 
 **Repository:** Coming soon — `https://github.com/Betti-Labs/FRSOE`  
-**Contact:** *Gregory Betti* — greyos.labs@gmail.com  
+**Contact:** *Gregory Betti* — gorygrey@protonmail.com  
 **Paper prepared with assistance from ChatGPT + Betti Core Engine.*

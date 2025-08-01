@@ -17,7 +17,7 @@ except ImportError:
 
 __version__ = "1.0.0"
 __author__ = "Gregory Betti - Betti Labs"
-__email__ = "greyos.labs@gmail.com"
+__email__ = "gorygrey@protonmail.com"
 
 __all__ = [
     "FRSOE",
