@@ -9,7 +9,7 @@
 
 ## Overview
 
-FRACKTAL (Fractal Recursive Symbolic Ontology Engine) represents a  The system employs recursive symbolic ontology (RSO) to extract meaningful patterns from data structures, followed by fractal hash collapse to create compact representations while maintaining perfect reconstruction fidelity.
+FRACKTAL (Fractal Recursive Symbolic Ontology Engine)   The system employs recursive symbolic ontology (RSO) to extract meaningful patterns from data structures, followed by fractal hash collapse to create compact representations while maintaining perfect reconstruction fidelity.
 
 ### Core Innovation
 
