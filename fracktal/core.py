@@ -160,16 +160,25 @@ class FRSOE:
         Returns:
             CodexMap object containing the complete encoding
         """
-        # Extract symbolic representations
-        symbols = self.engine.extract_symbols(data)
+        # Handle degenerate inputs to keep compression/reconstruction stable
+        if not data:
+            symbols = []
+        elif len(data) == 1:
+            symbol_id = f"S_{hash(data) % self.engine.symbol_range:04d}"
+            symbols = [symbol_id]
+        else:
+            symbols = self.engine.extract_symbols(data)
         
         # Build RSO tree
         tree = self.engine.build_rso_tree(symbols)
         
         # Generate original chunks for reconstruction
-        chunks = []
-        for i in range(len(data) - 1):
-            chunks.append(data[i:i+2])
+        if not data:
+            chunks = []
+        elif len(data) == 1:
+            chunks = [data]
+        else:
+            chunks = [data[i:i+2] for i in range(len(data) - 1)]
         
         # Create codex DataFrame
         codex_data = []
@@ -183,10 +192,14 @@ class FRSOE:
                 "Tree Depth": tree.nodes[symbol]["depth"]
             })
         
-        codex_df = pd.DataFrame(codex_data)
+        required_columns = ["Index", "Original Chunk", "Symbol ID", "Fractal Hash", "Tree Depth"]
+        codex_df = pd.DataFrame(codex_data, columns=required_columns)
         
-        # Generate fingerprint
-        fingerprint = self.engine.compute_codex_fingerprint(codex_df)
+        # Generate fingerprint (fall back to hashing raw input if no symbols)
+        if len(codex_df):
+            fingerprint = self.engine.compute_codex_fingerprint(codex_df)
+        else:
+            fingerprint = hashlib.sha256(data.encode()).hexdigest()
         
         # Create CodexMap
         codex_map = CodexMap(
@@ -195,7 +208,7 @@ class FRSOE:
             symbolic_tree=tree,
             fractal_hashes=self.engine.collapse_tree(tree),
             fingerprint=fingerprint,
-            compression_ratio=len(data) / len(codex_df)
+            compression_ratio=len(data) / len(codex_df) if len(codex_df) else 1.0
         )
         
         # Store in history

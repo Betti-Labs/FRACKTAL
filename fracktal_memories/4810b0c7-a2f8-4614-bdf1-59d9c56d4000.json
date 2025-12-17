@@ -1,0 +1,2241 @@
+{
+  "original_data": "The ontological status of memory #15 is questionable. Is it a wave or a particle? SJtwfjazT2EnBjtolbRHz UaWgDGWyuRZhJU5TAkEJCiReU0gQ",
+  "frsoe_codex": {
+    "original_data": "The ontological status of memory #15 is questionable. Is it a wave or a particle? SJtwfjazT2EnBjtolbRHz UaWgDGWyuRZhJU5TAkEJCiReU0gQ",
+    "codex_df": [
+      {
+        "Index": 0,
+        "Original Chunk": "Th",
+        "Symbol ID": "S_4467",
+        "Fractal Hash": "8430cf0a14ee56e625fc4a2a4d292446a4416e82726e2d56974397b673a49c27",
+        "Tree Depth": 0
+      },
+      {
+        "Index": 1,
+        "Original Chunk": "he",
+        "Symbol ID": "S_8491",
+        "Fractal Hash": "5992ccd6e54d404022c26d4ead497b4c3b1909dd50d300cc3d50475cbd7ce9bf",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 2,
+        "Original Chunk": "e ",
+        "Symbol ID": "S_3839",
+        "Fractal Hash": "ab225161736b43e2d409f755cf1f5f726711c01a7c9de7a90ec1a4337d7d42a9",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 3,
+        "Original Chunk": " o",
+        "Symbol ID": "S_3918",
+        "Fractal Hash": "c5aae72f950daa6cd5fe5d5d3d398d0d29dd265e9537a465750e801a9ccfba9c",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 4,
+        "Original Chunk": "on",
+        "Symbol ID": "S_1867",
+        "Fractal Hash": "521515aa1b56145ecf2db6395353496db37112d731b64ae54322cb5beccb0f10",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 5,
+        "Original Chunk": "nt",
+        "Symbol ID": "S_2332",
+        "Fractal Hash": "05397a5d12861f38652a6f4f13583c72900b613c173e15d3038d68f0343dd908",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 6,
+        "Original Chunk": "to",
+        "Symbol ID": "S_6732",
+        "Fractal Hash": "98565ca3fc07739621811fd4b2ce0251ac48b9fefce292d62966b206d20816fa",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 7,
+        "Original Chunk": "ol",
+        "Symbol ID": "S_0113",
+        "Fractal Hash": "faa4903b886d9df5121829cf153d14d924149dafeb572b74bf509fead159e28d",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 8,
+        "Original Chunk": "lo",
+        "Symbol ID": "S_6640",
+        "Fractal Hash": "3cb8fad45286f9117edeaeff52ae73652665a0983b535aa7797b3376fb3996d7",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 9,
+        "Original Chunk": "og",
+        "Symbol ID": "S_3680",
+        "Fractal Hash": "24bf6d6d0babfe99a7cd938507382eae83daee176325693fdc4593f07062ad1c",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 10,
+        "Original Chunk": "gi",
+        "Symbol ID": "S_4391",
+        "Fractal Hash": "791ab5379046892bcf0549837f905e1016c77790776fc0c335fb4142d2b52f82",
+        "Tree Depth": 5
+      },
+      {
+        "Index": 11,
+        "Original Chunk": "ic",
+        "Symbol ID": "S_6548",
+        "Fractal Hash": "e01721a0343de4122784b5892392a27af5e7f632fd6c5161b0610f2c1c401529",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 12,
+        "Original Chunk": "ca",
+        "Symbol ID": "S_1588",
+        "Fractal Hash": "cddb2c705fd995efd64828b723f923e0f785c1fdb2bc7e0900e9166e294bdcba",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 13,
+        "Original Chunk": "al",
+        "Symbol ID": "S_0707",
+        "Fractal Hash": "ff7bb1776d7ff27535ace3e7c4e093b75271c7f76b55bb3183fa03ee70974301",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 14,
+        "Original Chunk": "l ",
+        "Symbol ID": "S_7892",
+        "Fractal Hash": "0467cc185d311de0ae60cfd9548cefc4e9e2430531e4c41c3e1528bed4f98dbe",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 15,
+        "Original Chunk": " s",
+        "Symbol ID": "S_3937",
+        "Fractal Hash": "0632f7d8110ec06d40e70bde52021870a83ddf387f01cbcd675bd4416ce6b3ff",
+        "Tree Depth": 5
+      },
+      {
+        "Index": 16,
+        "Original Chunk": "st",
+        "Symbol ID": "S_6299",
+        "Fractal Hash": "e9e58a3a02277d279e18d20e2813a912155e506acafab7f004712aa524d9d74d",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 17,
+        "Original Chunk": "ta",
+        "Symbol ID": "S_7691",
+        "Fractal Hash": "13e59b6ae6753b05d904a1b735f890c8cd951644c887796122f20646ac101620",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 18,
+        "Original Chunk": "at",
+        "Symbol ID": "S_5773",
+        "Fractal Hash": "967d14eb4802f929ffe4fc94ed85b233d211ffff04477f125b1dc0df5e739d57",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 19,
+        "Original Chunk": "tu",
+        "Symbol ID": "S_6637",
+        "Fractal Hash": "3f284f707c07cbc3fa7086803977f5776c0671faa4ac7abd2a3e050bd1751e58",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 20,
+        "Original Chunk": "us",
+        "Symbol ID": "S_2935",
+        "Fractal Hash": "17ae568715783583821d88e0ac5fccd3f5ff1a33bd545cf47e2da9ec803091a1",
+        "Tree Depth": 5
+      },
+      {
+        "Index": 21,
+        "Original Chunk": "s ",
+        "Symbol ID": "S_4888",
+        "Fractal Hash": "56fd42660a0ce8f231d42f9bed1528cad283fda986b0b11473689752c79cd474",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 22,
+        "Original Chunk": " o",
+        "Symbol ID": "S_3918",
+        "Fractal Hash": "c5aae72f950daa6cd5fe5d5d3d398d0d29dd265e9537a465750e801a9ccfba9c",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 23,
+        "Original Chunk": "of",
+        "Symbol ID": "S_3892",
+        "Fractal Hash": "b378f7b3a6662134368248ca6903c550cc2234221f90e2acb6e139d4594652ca",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 24,
+        "Original Chunk": "f ",
+        "Symbol ID": "S_0488",
+        "Fractal Hash": "2e5489047866b3714a2526b47d50afe99ca924fdd334a60a9945d3177f675b7d",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 25,
+        "Original Chunk": " m",
+        "Symbol ID": "S_8399",
+        "Fractal Hash": "d42677b7b910486269264a4375a1057d35f8d3cc5e36aad7afec0686600672db",
+        "Tree Depth": 5
+      },
+      {
+        "Index": 26,
+        "Original Chunk": "me",
+        "Symbol ID": "S_3334",
+        "Fractal Hash": "6d94347be2dbdd9fc052487668f2a61bedb0c30ee78730502b600339402eed5d",
+        "Tree Depth": 6
+      },
+      {
+        "Index": 27,
+        "Original Chunk": "em",
+        "Symbol ID": "S_1276",
+        "Fractal Hash": "8bf1cfffed1cb40e34f626a82498f3ec25e1b8604aa66b697ab40f69808f00d3",
+        "Tree Depth": 7
+      },
+      {
+        "Index": 28,
+        "Original Chunk": "mo",
+        "Symbol ID": "S_7417",
+        "Fractal Hash": "9daf59da39e83ae3e3cc40cdfee51966f8cf9e3c15578c111d17fbd24a81ff79",
+        "Tree Depth": 8
+      },
+      {
+        "Index": 29,
+        "Original Chunk": "or",
+        "Symbol ID": "S_3866",
+        "Fractal Hash": "c79348a94aad589f16b0e7b8de269e094b2d3d572fc5387e8505f626aac49766",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 30,
+        "Original Chunk": "ry",
+        "Symbol ID": "S_2441",
+        "Fractal Hash": "02213e09953c1abc73701d692220b606fafc9a0d6a74086865ef5bc16b37db02",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 31,
+        "Original Chunk": "y ",
+        "Symbol ID": "S_9094",
+        "Fractal Hash": "5427fec263419d226c8bbca558c8f92f80a3a5bc502dc5df3fbdff23b68ec7a9",
+        "Tree Depth": 5
+      },
+      {
+        "Index": 32,
+        "Original Chunk": " #",
+        "Symbol ID": "S_1690",
+        "Fractal Hash": "fa6d6a85616816168682ca7d8cacc013cc1fefb19f9004a4d327b5031fc87876",
+        "Tree Depth": 6
+      },
+      {
+        "Index": 33,
+        "Original Chunk": "#1",
+        "Symbol ID": "S_6778",
+        "Fractal Hash": "3aaea3f98719af3326242a3390655ae571d41eedd86df31b5250fa4ba19c1b9a",
+        "Tree Depth": 7
+      },
+      {
+        "Index": 34,
+        "Original Chunk": "15",
+        "Symbol ID": "S_5507",
+        "Fractal Hash": "6e221ef3dc1724833a07e8f43605134fb03fc57f46de7655671d909cea8cb552",
+        "Tree Depth": 8
+      },
+      {
+        "Index": 35,
+        "Original Chunk": "5 ",
+        "Symbol ID": "S_0953",
+        "Fractal Hash": "b70a2c455b3d412eba7ad83dbb2b255ee71c1ddbe940fe48321e4cbe044d0fda",
+        "Tree Depth": 9
+      },
+      {
+        "Index": 36,
+        "Original Chunk": " i",
+        "Symbol ID": "S_1108",
+        "Fractal Hash": "6678d7c8b53bf927c7bff3318a952330b223109c6b7003fab62a6e0db33649fd",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 37,
+        "Original Chunk": "is",
+        "Symbol ID": "S_5593",
+        "Fractal Hash": "8424b566429bc8a3a2b60179195b2ef8e3b7e8715a55b77d3057cb06821c840d",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 38,
+        "Original Chunk": "s ",
+        "Symbol ID": "S_4888",
+        "Fractal Hash": "56fd42660a0ce8f231d42f9bed1528cad283fda986b0b11473689752c79cd474",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 39,
+        "Original Chunk": " q",
+        "Symbol ID": "S_4390",
+        "Fractal Hash": "6a63f972a44d78b7c95676e094573fd84c940440f16cdbf16a114317898ddbad",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 40,
+        "Original Chunk": "qu",
+        "Symbol ID": "S_4142",
+        "Fractal Hash": "058f22656b3578ac242e909e9921bdd813dcbcb3294ac3928e9792b7ec70aa02",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 41,
+        "Original Chunk": "ue",
+        "Symbol ID": "S_4230",
+        "Fractal Hash": "97011dfa4adb36e385cbe03f79a04f563ba63ae46bd79894b24af86d6268c8b1",
+        "Tree Depth": 5
+      },
+      {
+        "Index": 42,
+        "Original Chunk": "es",
+        "Symbol ID": "S_6946",
+        "Fractal Hash": "95d4e9cbdf0f706bd8b6804ada9c66216bf798dc34317a99bfbc63eabfc908a7",
+        "Tree Depth": 6
+      },
+      {
+        "Index": 43,
+        "Original Chunk": "st",
+        "Symbol ID": "S_6299",
+        "Fractal Hash": "e9e58a3a02277d279e18d20e2813a912155e506acafab7f004712aa524d9d74d",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 44,
+        "Original Chunk": "ti",
+        "Symbol ID": "S_2009",
+        "Fractal Hash": "012830d55e56c1ba0814b6d8d4136e5971c3135f58829cbb385233c7ab2a00af",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 45,
+        "Original Chunk": "io",
+        "Symbol ID": "S_5497",
+        "Fractal Hash": "60987a313cf51a088aaf6f244435cd1aadca761f178832e9599877cc25beb070",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 46,
+        "Original Chunk": "on",
+        "Symbol ID": "S_1867",
+        "Fractal Hash": "521515aa1b56145ecf2db6395353496db37112d731b64ae54322cb5beccb0f10",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 47,
+        "Original Chunk": "na",
+        "Symbol ID": "S_5078",
+        "Fractal Hash": "45b9d4db134f6666e018fba9931ed425fd8380723b3539ac6c3e9b1d0021a7d5",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 48,
+        "Original Chunk": "ab",
+        "Symbol ID": "S_2788",
+        "Fractal Hash": "2e7cb6fc7477392588f7b5dfd6a99660346a3ca478f66aa56decf2bfa2d8088a",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 49,
+        "Original Chunk": "bl",
+        "Symbol ID": "S_0088",
+        "Fractal Hash": "9056abe3aec7b138565c1f4d68cf3b4b0b4c49e3ae0fb691c5d2fee598352176",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 50,
+        "Original Chunk": "le",
+        "Symbol ID": "S_6194",
+        "Fractal Hash": "42a2d64621d19c927d0ae0b8c3bfa081763b07f890f2d41708beb3d8eed9a3fc",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 51,
+        "Original Chunk": "e.",
+        "Symbol ID": "S_6442",
+        "Fractal Hash": "94670208c38afa7631b237073968ca866f90bb2e978a282628203fd40d8d6868",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 52,
+        "Original Chunk": ". ",
+        "Symbol ID": "S_2774",
+        "Fractal Hash": "8c9d32814d4f04d6753a5286c2ec6757846d8fe1adfee8759f45955d7249d2fe",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 53,
+        "Original Chunk": " I",
+        "Symbol ID": "S_2788",
+        "Fractal Hash": "2e7cb6fc7477392588f7b5dfd6a99660346a3ca478f66aa56decf2bfa2d8088a",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 54,
+        "Original Chunk": "Is",
+        "Symbol ID": "S_3839",
+        "Fractal Hash": "ab225161736b43e2d409f755cf1f5f726711c01a7c9de7a90ec1a4337d7d42a9",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 55,
+        "Original Chunk": "s ",
+        "Symbol ID": "S_4888",
+        "Fractal Hash": "56fd42660a0ce8f231d42f9bed1528cad283fda986b0b11473689752c79cd474",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 56,
+        "Original Chunk": " i",
+        "Symbol ID": "S_1108",
+        "Fractal Hash": "6678d7c8b53bf927c7bff3318a952330b223109c6b7003fab62a6e0db33649fd",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 57,
+        "Original Chunk": "it",
+        "Symbol ID": "S_2271",
+        "Fractal Hash": "be57364f0525cefda6d293aa5bb0a684a9220b750b33148e4cf682275ca0e759",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 58,
+        "Original Chunk": "t ",
+        "Symbol ID": "S_6154",
+        "Fractal Hash": "ee290377b40544c434646335489b4c5c8a983793f4ed8b175f52e3803630865b",
+        "Tree Depth": 5
+      },
+      {
+        "Index": 59,
+        "Original Chunk": " a",
+        "Symbol ID": "S_2370",
+        "Fractal Hash": "adb50c1b8a3c12bdb202d9832b53bc0a9d2daf6949e9efc0e2da4c72b1bfc510",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 60,
+        "Original Chunk": "a ",
+        "Symbol ID": "S_7362",
+        "Fractal Hash": "76021dddab29486c4dd5dfa943c8595a75b763bb05f73a68377f1f779cadd44d",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 61,
+        "Original Chunk": " w",
+        "Symbol ID": "S_4165",
+        "Fractal Hash": "2ef0efb48038be5230e018f6d1eed0c64187741cdc3635c9251f4fcee643d979",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 62,
+        "Original Chunk": "wa",
+        "Symbol ID": "S_8633",
+        "Fractal Hash": "94f0cb629c1d77cc1c2e2efe3c86369147d5bf131c2c66b7bbec7c6f96545402",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 63,
+        "Original Chunk": "av",
+        "Symbol ID": "S_8927",
+        "Fractal Hash": "7c7ff1dd9ca2c2146ac6baf4fc5efba2cbbb53617db93d7c078425c5e96b1f61",
+        "Tree Depth": 5
+      },
+      {
+        "Index": 64,
+        "Original Chunk": "ve",
+        "Symbol ID": "S_5634",
+        "Fractal Hash": "11c6b44b5c62589c9b624d7a7bf9d7b08c60a0cfd92766008d0923b5105596a7",
+        "Tree Depth": 6
+      },
+      {
+        "Index": 65,
+        "Original Chunk": "e ",
+        "Symbol ID": "S_3839",
+        "Fractal Hash": "ab225161736b43e2d409f755cf1f5f726711c01a7c9de7a90ec1a4337d7d42a9",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 66,
+        "Original Chunk": " o",
+        "Symbol ID": "S_3918",
+        "Fractal Hash": "c5aae72f950daa6cd5fe5d5d3d398d0d29dd265e9537a465750e801a9ccfba9c",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 67,
+        "Original Chunk": "or",
+        "Symbol ID": "S_3866",
+        "Fractal Hash": "c79348a94aad589f16b0e7b8de269e094b2d3d572fc5387e8505f626aac49766",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 68,
+        "Original Chunk": "r ",
+        "Symbol ID": "S_0968",
+        "Fractal Hash": "17cc6452253e1429d6a05a55bb7f5f10f45b05f4484a42920c06cb11ef71d1cd",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 69,
+        "Original Chunk": " a",
+        "Symbol ID": "S_2370",
+        "Fractal Hash": "adb50c1b8a3c12bdb202d9832b53bc0a9d2daf6949e9efc0e2da4c72b1bfc510",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 70,
+        "Original Chunk": "a ",
+        "Symbol ID": "S_7362",
+        "Fractal Hash": "76021dddab29486c4dd5dfa943c8595a75b763bb05f73a68377f1f779cadd44d",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 71,
+        "Original Chunk": " p",
+        "Symbol ID": "S_7750",
+        "Fractal Hash": "3ea46e43be7d0137aaf7e886f6ae0b12546f5214ee536215e38c035c135d0782",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 72,
+        "Original Chunk": "pa",
+        "Symbol ID": "S_5268",
+        "Fractal Hash": "12857b8b3be6c6fdcc02adcbcf11c15e0cfc7ab88d41a8ac99d123a165496631",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 73,
+        "Original Chunk": "ar",
+        "Symbol ID": "S_3355",
+        "Fractal Hash": "ccf9a2a003252d81cf0ce7b38a2d358413dd87a3a24fcebea4041c46622e3c51",
+        "Tree Depth": 5
+      },
+      {
+        "Index": 74,
+        "Original Chunk": "rt",
+        "Symbol ID": "S_4105",
+        "Fractal Hash": "5862a27861f0ecf3c1e09949c5a5652f7bfad16684f72e2e5b9cb773ed117875",
+        "Tree Depth": 6
+      },
+      {
+        "Index": 75,
+        "Original Chunk": "ti",
+        "Symbol ID": "S_2009",
+        "Fractal Hash": "012830d55e56c1ba0814b6d8d4136e5971c3135f58829cbb385233c7ab2a00af",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 76,
+        "Original Chunk": "ic",
+        "Symbol ID": "S_6548",
+        "Fractal Hash": "e01721a0343de4122784b5892392a27af5e7f632fd6c5161b0610f2c1c401529",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 77,
+        "Original Chunk": "cl",
+        "Symbol ID": "S_0336",
+        "Fractal Hash": "01862955c684682b6b5d79e093530dfa1ac435d29b1a9e89cd64ea2a61426606",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 78,
+        "Original Chunk": "le",
+        "Symbol ID": "S_6194",
+        "Fractal Hash": "42a2d64621d19c927d0ae0b8c3bfa081763b07f890f2d41708beb3d8eed9a3fc",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 79,
+        "Original Chunk": "e?",
+        "Symbol ID": "S_7014",
+        "Fractal Hash": "359f349bc88893a4a44a495f1eea9f9cc4f5b6d1dc630441dbfc8ba8dd3824c3",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 80,
+        "Original Chunk": "? ",
+        "Symbol ID": "S_4942",
+        "Fractal Hash": "fbd3dad312cd7ef3c63b1725ee96b4478acf1b876b7a904420406b5e7090d326",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 81,
+        "Original Chunk": " S",
+        "Symbol ID": "S_9089",
+        "Fractal Hash": "c17666fefed53ef22512d5a6c1e175e60258e42b467019be09ce1fb01cb9c5e7",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 82,
+        "Original Chunk": "SJ",
+        "Symbol ID": "S_3819",
+        "Fractal Hash": "5095a724e74a240dd811304d4d6cfae223955f226f0254548707b659576f0c07",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 83,
+        "Original Chunk": "Jt",
+        "Symbol ID": "S_2076",
+        "Fractal Hash": "e85250c415df26c685a34043714ea96722aba649282a275a3f01f67784dc8570",
+        "Tree Depth": 5
+      },
+      {
+        "Index": 84,
+        "Original Chunk": "tw",
+        "Symbol ID": "S_3592",
+        "Fractal Hash": "04c308819666fbb91887adf21024635e6e544977547a3cc161089bc6a94b35d1",
+        "Tree Depth": 6
+      },
+      {
+        "Index": 85,
+        "Original Chunk": "wf",
+        "Symbol ID": "S_8797",
+        "Fractal Hash": "8a301d73390992b78ad1fccd11dd97851ab9d6e0ada73a736ef996f61290bd53",
+        "Tree Depth": 7
+      },
+      {
+        "Index": 86,
+        "Original Chunk": "fj",
+        "Symbol ID": "S_7579",
+        "Fractal Hash": "ef2de7ddf2daf268ab5e6250378c1d6f9802941e19a41adfb83c60c20045d760",
+        "Tree Depth": 8
+      },
+      {
+        "Index": 87,
+        "Original Chunk": "ja",
+        "Symbol ID": "S_7431",
+        "Fractal Hash": "870cb1e982f3d77f42119ea39e039e090e95a2118196c195e612cef4464340c9",
+        "Tree Depth": 9
+      },
+      {
+        "Index": 88,
+        "Original Chunk": "az",
+        "Symbol ID": "S_1162",
+        "Fractal Hash": "74ac0922fcfd0a09da968bf602510ae466dbcfeb025c81f5b688b82fe6b4acfa",
+        "Tree Depth": 10
+      },
+      {
+        "Index": 89,
+        "Original Chunk": "zT",
+        "Symbol ID": "S_4916",
+        "Fractal Hash": "63bb8c2f3c567c4f7dd8505cdefb46dbfdfff632814243124dde6f3644e259e5",
+        "Tree Depth": 11
+      },
+      {
+        "Index": 90,
+        "Original Chunk": "T2",
+        "Symbol ID": "S_7227",
+        "Fractal Hash": "7cbe2eebee3c3237a4ff985d62551ba65650997e4349a6a76bda7075c9fb117b",
+        "Tree Depth": 12
+      },
+      {
+        "Index": 91,
+        "Original Chunk": "2E",
+        "Symbol ID": "S_2168",
+        "Fractal Hash": "e6b3ebba9ae0f2217846f987bc315e92afa5a30c5c20ac3e431206785192fefa",
+        "Tree Depth": 13
+      },
+      {
+        "Index": 92,
+        "Original Chunk": "En",
+        "Symbol ID": "S_5488",
+        "Fractal Hash": "8b7e8c90708378b15cc6488b1bf58115bc249e290a53055ea6997e79b515f1b8",
+        "Tree Depth": 14
+      },
+      {
+        "Index": 93,
+        "Original Chunk": "nB",
+        "Symbol ID": "S_6188",
+        "Fractal Hash": "2c233a3245b28e5d9a62e23a2dd8ca1fb2c6f5a9be06465d172d3ff51afa76bc",
+        "Tree Depth": 15
+      },
+      {
+        "Index": 94,
+        "Original Chunk": "Bj",
+        "Symbol ID": "S_9578",
+        "Fractal Hash": "dfc1bf3e17a93319bc3492f372bd6f3637b87351de37b10cc179531991b7dc79",
+        "Tree Depth": 16
+      },
+      {
+        "Index": 95,
+        "Original Chunk": "jt",
+        "Symbol ID": "S_3694",
+        "Fractal Hash": "43bd6a0f276ba0f38d69366f7c19723218a55d1ad34d54d52ad8a58852d0080d",
+        "Tree Depth": 17
+      },
+      {
+        "Index": 96,
+        "Original Chunk": "to",
+        "Symbol ID": "S_6732",
+        "Fractal Hash": "98565ca3fc07739621811fd4b2ce0251ac48b9fefce292d62966b206d20816fa",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 97,
+        "Original Chunk": "ol",
+        "Symbol ID": "S_0113",
+        "Fractal Hash": "faa4903b886d9df5121829cf153d14d924149dafeb572b74bf509fead159e28d",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 98,
+        "Original Chunk": "lb",
+        "Symbol ID": "S_6913",
+        "Fractal Hash": "52762df96f1539c8855fe7b80d76e33ae164fa09663da019fbab96f3d3bbbf90",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 99,
+        "Original Chunk": "bR",
+        "Symbol ID": "S_9256",
+        "Fractal Hash": "8a995fe76652db024e8979c3c489b6d353ca34639259ef3d4c621ada96e682a5",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 100,
+        "Original Chunk": "RH",
+        "Symbol ID": "S_2881",
+        "Fractal Hash": "f36e628a613795ce02963d52a9ae3139e6da3ef22ea3f485adec7d72a3ab8f25",
+        "Tree Depth": 5
+      },
+      {
+        "Index": 101,
+        "Original Chunk": "Hz",
+        "Symbol ID": "S_0956",
+        "Fractal Hash": "be8d7b29aa8a9d73a0105cdd6c659b34e13c71c0f69f60e7430a1091a4e1663e",
+        "Tree Depth": 6
+      },
+      {
+        "Index": 102,
+        "Original Chunk": "z ",
+        "Symbol ID": "S_4697",
+        "Fractal Hash": "5a16243bfed5772865e56a7ddb1af26b826996675fb404dc8b622452fee9b003",
+        "Tree Depth": 7
+      },
+      {
+        "Index": 103,
+        "Original Chunk": " U",
+        "Symbol ID": "S_3731",
+        "Fractal Hash": "844a520cdce152cdcc5dfbc8a72305d277a1f6643f6bd6fab3f0bb6d85e123e6",
+        "Tree Depth": 8
+      },
+      {
+        "Index": 104,
+        "Original Chunk": "Ua",
+        "Symbol ID": "S_5523",
+        "Fractal Hash": "0a069869c726a1432c565bd4fe9fa16d3149b3d80673071a7adc5813dcb654e8",
+        "Tree Depth": 9
+      },
+      {
+        "Index": 105,
+        "Original Chunk": "aW",
+        "Symbol ID": "S_3468",
+        "Fractal Hash": "bb40788137ea97f1678bdd36601040f7008a64f90f44290e65201b13fbb465a4",
+        "Tree Depth": 10
+      },
+      {
+        "Index": 106,
+        "Original Chunk": "Wg",
+        "Symbol ID": "S_0232",
+        "Fractal Hash": "f5cc20d7793fc95d1193eaba820577042d929e3935be24a3e04d1d5f55a888aa",
+        "Tree Depth": 11
+      },
+      {
+        "Index": 107,
+        "Original Chunk": "gD",
+        "Symbol ID": "S_9178",
+        "Fractal Hash": "14f5597e27b8671e1342265318488c8f56ed4e4db24e4c9548749b1a138013db",
+        "Tree Depth": 12
+      },
+      {
+        "Index": 108,
+        "Original Chunk": "DG",
+        "Symbol ID": "S_0208",
+        "Fractal Hash": "7991580ddf95fbf17e73b520e704509a48e7d9ec70421e7641ed4cad81c867e7",
+        "Tree Depth": 13
+      },
+      {
+        "Index": 109,
+        "Original Chunk": "GW",
+        "Symbol ID": "S_1100",
+        "Fractal Hash": "8b5c15952d4d52eba531e23fcb9262f11eba7523fd986994ebcda4c3bbcde056",
+        "Tree Depth": 14
+      },
+      {
+        "Index": 110,
+        "Original Chunk": "Wy",
+        "Symbol ID": "S_1509",
+        "Fractal Hash": "6ead1006b186df92d1f7ee170f771926c49901364132e38022f5a5428a3e6d76",
+        "Tree Depth": 15
+      },
+      {
+        "Index": 111,
+        "Original Chunk": "yu",
+        "Symbol ID": "S_7014",
+        "Fractal Hash": "359f349bc88893a4a44a495f1eea9f9cc4f5b6d1dc630441dbfc8ba8dd3824c3",
+        "Tree Depth": 1
+      },
+      {
+        "Index": 112,
+        "Original Chunk": "uR",
+        "Symbol ID": "S_9003",
+        "Fractal Hash": "5c5e6bec5b53020fecb3b5f14a587a42b4f8cf43e2ec4977f67e60e4e30eba44",
+        "Tree Depth": 2
+      },
+      {
+        "Index": 113,
+        "Original Chunk": "RZ",
+        "Symbol ID": "S_8248",
+        "Fractal Hash": "198879cddc329aa10c8247fb4f04303ac1c2062d2c84cf58a66c7864c6818914",
+        "Tree Depth": 3
+      },
+      {
+        "Index": 114,
+        "Original Chunk": "Zh",
+        "Symbol ID": "S_5647",
+        "Fractal Hash": "d7613c89f4031d0552ed686a5729ef81f17193872732fc32f5f9fc1c99b7ca52",
+        "Tree Depth": 4
+      },
+      {
+        "Index": 115,
+        "Original Chunk": "hJ",
+        "Symbol ID": "S_6006",
+        "Fractal Hash": "d0cbffc58960d1c045be6e82a4746f76074b21aaa894e4f563cdb236e0b45215",
+        "Tree Depth": 5
+      },
+      {
+        "Index": 116,
+        "Original Chunk": "JU",
+        "Symbol ID": "S_8817",
+        "Fractal Hash": "0cb3e685110d23f4bf63dd836b3c232ed5c5f2a4de7e9afb734b2aa80d3203e1",
+        "Tree Depth": 6
+      },
+      {
+        "Index": 117,
+        "Original Chunk": "U5",
+        "Symbol ID": "S_1560",
+        "Fractal Hash": "42ef9186668b5e0f38b90c232855a5715222ab9c830a0d1045df15f5e0d447ef",
+        "Tree Depth": 7
+      },
+      {
+        "Index": 118,
+        "Original Chunk": "5T",
+        "Symbol ID": "S_4129",
+        "Fractal Hash": "ae3f0b2b28d0755bb15a1da5c9e1f33bec58210131b48a77f992a794f7023ea7",
+        "Tree Depth": 8
+      },
+      {
+        "Index": 119,
+        "Original Chunk": "TA",
+        "Symbol ID": "S_5915",
+        "Fractal Hash": "a4a2d7637e219e618b9bc1adb3fcfa71729167f55adbdd20ad5cdcf8adcaeba2",
+        "Tree Depth": 9
+      },
+      {
+        "Index": 120,
+        "Original Chunk": "Ak",
+        "Symbol ID": "S_2423",
+        "Fractal Hash": "1315bba5fa7493058d15c8a19582799e6cecc106df3f2b99a69b7fe636f8bd42",
+        "Tree Depth": 10
+      },
+      {
+        "Index": 121,
+        "Original Chunk": "kE",
+        "Symbol ID": "S_0101",
+        "Fractal Hash": "8365a12be9429f9e4d5feed303d0f6755a70339db62cfc6281d6674739de3219",
+        "Tree Depth": 11
+      },
+      {
+        "Index": 122,
+        "Original Chunk": "EJ",
+        "Symbol ID": "S_6592",
+        "Fractal Hash": "cabb5ee2f85fbae3187e9c7773eb2878611483e8487cb897c6d3af9ca212aded",
+        "Tree Depth": 12
+      },
+      {
+        "Index": 123,
+        "Original Chunk": "JC",
+        "Symbol ID": "S_2115",
+        "Fractal Hash": "00ce80fd4a452103ea6124ae51876ec34fbad8144f2635ae4135a3c7e61aec69",
+        "Tree Depth": 13
+      },
+      {
+        "Index": 124,
+        "Original Chunk": "Ci",
+        "Symbol ID": "S_7201",
+        "Fractal Hash": "cab6337b4efbc00ccc1bb5ba398d5b230ff4c673fee60c3a1d27f3d6c1d85a0f",
+        "Tree Depth": 14
+      },
+      {
+        "Index": 125,
+        "Original Chunk": "iR",
+        "Symbol ID": "S_7681",
+        "Fractal Hash": "87a8f2527676c6e49a14f8563fbef585f1c4ad2e1414b7d005a8aa063a3298fc",
+        "Tree Depth": 15
+      },
+      {
+        "Index": 126,
+        "Original Chunk": "Re",
+        "Symbol ID": "S_4749",
+        "Fractal Hash": "463352663135f80987d3ee6c5e6d50e721fe1f417ccce1fae4df3f8c60a823bf",
+        "Tree Depth": 16
+      },
+      {
+        "Index": 127,
+        "Original Chunk": "eU",
+        "Symbol ID": "S_6838",
+        "Fractal Hash": "786aec5fb26c0fdd963d9bbba474a566975b07ce91bad8f514c987701e42cc8e",
+        "Tree Depth": 17
+      },
+      {
+        "Index": 128,
+        "Original Chunk": "U0",
+        "Symbol ID": "S_8095",
+        "Fractal Hash": "c4bbf1f8d00187d28f1c94381d47046c054aab15a5429e582dd728c7c2f7cf59",
+        "Tree Depth": 18
+      },
+      {
+        "Index": 129,
+        "Original Chunk": "0g",
+        "Symbol ID": "S_0021",
+        "Fractal Hash": "b03f44c35e63caa8510382eb38a93e81c9821551607a000c9a00b22064b61a04",
+        "Tree Depth": 19
+      },
+      {
+        "Index": 130,
+        "Original Chunk": "gQ",
+        "Symbol ID": "S_4713",
+        "Fractal Hash": "85cb3b6726c963cbef27d43826f6e7fc7ced6223c7ca5a64d1fa5f9186580321",
+        "Tree Depth": 20
+      }
+    ],
+    "symbolic_tree": {
+      "nodes": {
+        "S_4467": {
+          "index": 0,
+          "link": null,
+          "depth": 0,
+          "children": [
+            "S_8491"
+          ]
+        },
+        "S_8491": {
+          "index": 1,
+          "link": "S_4467",
+          "depth": 1,
+          "children": []
+        },
+        "S_3839": {
+          "index": 65,
+          "link": "S_5634",
+          "depth": 1,
+          "children": [
+            "S_3918",
+            "S_4888"
+          ]
+        },
+        "S_3918": {
+          "index": 66,
+          "link": "S_3839",
+          "depth": 2,
+          "children": [
+            "S_3892",
+            "S_3866"
+          ]
+        },
+        "S_1867": {
+          "index": 46,
+          "link": "S_5497",
+          "depth": 1,
+          "children": [
+            "S_2332",
+            "S_5078"
+          ]
+        },
+        "S_2332": {
+          "index": 5,
+          "link": "S_1867",
+          "depth": 2,
+          "children": []
+        },
+        "S_6732": {
+          "index": 96,
+          "link": "S_3694",
+          "depth": 1,
+          "children": [
+            "S_0113"
+          ]
+        },
+        "S_0113": {
+          "index": 97,
+          "link": "S_6732",
+          "depth": 2,
+          "children": [
+            "S_6640",
+            "S_6913"
+          ]
+        },
+        "S_6640": {
+          "index": 8,
+          "link": "S_0113",
+          "depth": 3,
+          "children": [
+            "S_3680"
+          ]
+        },
+        "S_3680": {
+          "index": 9,
+          "link": "S_6640",
+          "depth": 4,
+          "children": [
+            "S_4391"
+          ]
+        },
+        "S_4391": {
+          "index": 10,
+          "link": "S_3680",
+          "depth": 5,
+          "children": []
+        },
+        "S_6548": {
+          "index": 76,
+          "link": "S_2009",
+          "depth": 1,
+          "children": [
+            "S_1588",
+            "S_0336"
+          ]
+        },
+        "S_1588": {
+          "index": 12,
+          "link": "S_6548",
+          "depth": 2,
+          "children": [
+            "S_0707"
+          ]
+        },
+        "S_0707": {
+          "index": 13,
+          "link": "S_1588",
+          "depth": 3,
+          "children": [
+            "S_7892"
+          ]
+        },
+        "S_7892": {
+          "index": 14,
+          "link": "S_0707",
+          "depth": 4,
+          "children": [
+            "S_3937"
+          ]
+        },
+        "S_3937": {
+          "index": 15,
+          "link": "S_7892",
+          "depth": 5,
+          "children": []
+        },
+        "S_6299": {
+          "index": 43,
+          "link": "S_6946",
+          "depth": 1,
+          "children": [
+            "S_7691"
+          ]
+        },
+        "S_7691": {
+          "index": 17,
+          "link": "S_6299",
+          "depth": 2,
+          "children": [
+            "S_5773"
+          ]
+        },
+        "S_5773": {
+          "index": 18,
+          "link": "S_7691",
+          "depth": 3,
+          "children": [
+            "S_6637"
+          ]
+        },
+        "S_6637": {
+          "index": 19,
+          "link": "S_5773",
+          "depth": 4,
+          "children": [
+            "S_2935"
+          ]
+        },
+        "S_2935": {
+          "index": 20,
+          "link": "S_6637",
+          "depth": 5,
+          "children": []
+        },
+        "S_4888": {
+          "index": 55,
+          "link": "S_3839",
+          "depth": 2,
+          "children": [
+            "S_1108",
+            "S_4390"
+          ]
+        },
+        "S_3892": {
+          "index": 23,
+          "link": "S_3918",
+          "depth": 3,
+          "children": [
+            "S_0488"
+          ]
+        },
+        "S_0488": {
+          "index": 24,
+          "link": "S_3892",
+          "depth": 4,
+          "children": [
+            "S_8399"
+          ]
+        },
+        "S_8399": {
+          "index": 25,
+          "link": "S_0488",
+          "depth": 5,
+          "children": [
+            "S_3334"
+          ]
+        },
+        "S_3334": {
+          "index": 26,
+          "link": "S_8399",
+          "depth": 6,
+          "children": [
+            "S_1276"
+          ]
+        },
+        "S_1276": {
+          "index": 27,
+          "link": "S_3334",
+          "depth": 7,
+          "children": [
+            "S_7417"
+          ]
+        },
+        "S_7417": {
+          "index": 28,
+          "link": "S_1276",
+          "depth": 8,
+          "children": []
+        },
+        "S_3866": {
+          "index": 67,
+          "link": "S_3918",
+          "depth": 3,
+          "children": [
+            "S_2441",
+            "S_0968"
+          ]
+        },
+        "S_2441": {
+          "index": 30,
+          "link": "S_3866",
+          "depth": 4,
+          "children": [
+            "S_9094"
+          ]
+        },
+        "S_9094": {
+          "index": 31,
+          "link": "S_2441",
+          "depth": 5,
+          "children": [
+            "S_1690"
+          ]
+        },
+        "S_1690": {
+          "index": 32,
+          "link": "S_9094",
+          "depth": 6,
+          "children": [
+            "S_6778"
+          ]
+        },
+        "S_6778": {
+          "index": 33,
+          "link": "S_1690",
+          "depth": 7,
+          "children": [
+            "S_5507"
+          ]
+        },
+        "S_5507": {
+          "index": 34,
+          "link": "S_6778",
+          "depth": 8,
+          "children": [
+            "S_0953"
+          ]
+        },
+        "S_0953": {
+          "index": 35,
+          "link": "S_5507",
+          "depth": 9,
+          "children": []
+        },
+        "S_1108": {
+          "index": 56,
+          "link": "S_4888",
+          "depth": 3,
+          "children": [
+            "S_5593",
+            "S_2271"
+          ]
+        },
+        "S_5593": {
+          "index": 37,
+          "link": "S_1108",
+          "depth": 4,
+          "children": []
+        },
+        "S_4390": {
+          "index": 39,
+          "link": "S_4888",
+          "depth": 3,
+          "children": [
+            "S_4142"
+          ]
+        },
+        "S_4142": {
+          "index": 40,
+          "link": "S_4390",
+          "depth": 4,
+          "children": [
+            "S_4230"
+          ]
+        },
+        "S_4230": {
+          "index": 41,
+          "link": "S_4142",
+          "depth": 5,
+          "children": [
+            "S_6946"
+          ]
+        },
+        "S_6946": {
+          "index": 42,
+          "link": "S_4230",
+          "depth": 6,
+          "children": [
+            "S_6299"
+          ]
+        },
+        "S_2009": {
+          "index": 75,
+          "link": "S_4105",
+          "depth": 1,
+          "children": [
+            "S_6548",
+            "S_5497"
+          ]
+        },
+        "S_5497": {
+          "index": 45,
+          "link": "S_2009",
+          "depth": 2,
+          "children": [
+            "S_1867"
+          ]
+        },
+        "S_5078": {
+          "index": 47,
+          "link": "S_1867",
+          "depth": 2,
+          "children": []
+        },
+        "S_2788": {
+          "index": 53,
+          "link": "S_2774",
+          "depth": 1,
+          "children": [
+            "S_0088"
+          ]
+        },
+        "S_0088": {
+          "index": 49,
+          "link": "S_2788",
+          "depth": 2,
+          "children": []
+        },
+        "S_6194": {
+          "index": 78,
+          "link": "S_0336",
+          "depth": 1,
+          "children": [
+            "S_6442"
+          ]
+        },
+        "S_6442": {
+          "index": 51,
+          "link": "S_6194",
+          "depth": 2,
+          "children": [
+            "S_2774"
+          ]
+        },
+        "S_2774": {
+          "index": 52,
+          "link": "S_6442",
+          "depth": 3,
+          "children": [
+            "S_2788"
+          ]
+        },
+        "S_2271": {
+          "index": 57,
+          "link": "S_1108",
+          "depth": 4,
+          "children": [
+            "S_6154"
+          ]
+        },
+        "S_6154": {
+          "index": 58,
+          "link": "S_2271",
+          "depth": 5,
+          "children": []
+        },
+        "S_2370": {
+          "index": 69,
+          "link": "S_0968",
+          "depth": 1,
+          "children": [
+            "S_7362"
+          ]
+        },
+        "S_7362": {
+          "index": 70,
+          "link": "S_2370",
+          "depth": 2,
+          "children": [
+            "S_4165",
+            "S_7750"
+          ]
+        },
+        "S_4165": {
+          "index": 61,
+          "link": "S_7362",
+          "depth": 3,
+          "children": [
+            "S_8633"
+          ]
+        },
+        "S_8633": {
+          "index": 62,
+          "link": "S_4165",
+          "depth": 4,
+          "children": [
+            "S_8927"
+          ]
+        },
+        "S_8927": {
+          "index": 63,
+          "link": "S_8633",
+          "depth": 5,
+          "children": [
+            "S_5634"
+          ]
+        },
+        "S_5634": {
+          "index": 64,
+          "link": "S_8927",
+          "depth": 6,
+          "children": [
+            "S_3839"
+          ]
+        },
+        "S_0968": {
+          "index": 68,
+          "link": "S_3866",
+          "depth": 4,
+          "children": [
+            "S_2370"
+          ]
+        },
+        "S_7750": {
+          "index": 71,
+          "link": "S_7362",
+          "depth": 3,
+          "children": [
+            "S_5268"
+          ]
+        },
+        "S_5268": {
+          "index": 72,
+          "link": "S_7750",
+          "depth": 4,
+          "children": [
+            "S_3355"
+          ]
+        },
+        "S_3355": {
+          "index": 73,
+          "link": "S_5268",
+          "depth": 5,
+          "children": [
+            "S_4105"
+          ]
+        },
+        "S_4105": {
+          "index": 74,
+          "link": "S_3355",
+          "depth": 6,
+          "children": [
+            "S_2009"
+          ]
+        },
+        "S_0336": {
+          "index": 77,
+          "link": "S_6548",
+          "depth": 2,
+          "children": [
+            "S_6194"
+          ]
+        },
+        "S_7014": {
+          "index": 111,
+          "link": "S_1509",
+          "depth": 1,
+          "children": [
+            "S_4942",
+            "S_9003"
+          ]
+        },
+        "S_4942": {
+          "index": 80,
+          "link": "S_7014",
+          "depth": 2,
+          "children": [
+            "S_9089"
+          ]
+        },
+        "S_9089": {
+          "index": 81,
+          "link": "S_4942",
+          "depth": 3,
+          "children": [
+            "S_3819"
+          ]
+        },
+        "S_3819": {
+          "index": 82,
+          "link": "S_9089",
+          "depth": 4,
+          "children": [
+            "S_2076"
+          ]
+        },
+        "S_2076": {
+          "index": 83,
+          "link": "S_3819",
+          "depth": 5,
+          "children": [
+            "S_3592"
+          ]
+        },
+        "S_3592": {
+          "index": 84,
+          "link": "S_2076",
+          "depth": 6,
+          "children": [
+            "S_8797"
+          ]
+        },
+        "S_8797": {
+          "index": 85,
+          "link": "S_3592",
+          "depth": 7,
+          "children": [
+            "S_7579"
+          ]
+        },
+        "S_7579": {
+          "index": 86,
+          "link": "S_8797",
+          "depth": 8,
+          "children": [
+            "S_7431"
+          ]
+        },
+        "S_7431": {
+          "index": 87,
+          "link": "S_7579",
+          "depth": 9,
+          "children": [
+            "S_1162"
+          ]
+        },
+        "S_1162": {
+          "index": 88,
+          "link": "S_7431",
+          "depth": 10,
+          "children": [
+            "S_4916"
+          ]
+        },
+        "S_4916": {
+          "index": 89,
+          "link": "S_1162",
+          "depth": 11,
+          "children": [
+            "S_7227"
+          ]
+        },
+        "S_7227": {
+          "index": 90,
+          "link": "S_4916",
+          "depth": 12,
+          "children": [
+            "S_2168"
+          ]
+        },
+        "S_2168": {
+          "index": 91,
+          "link": "S_7227",
+          "depth": 13,
+          "children": [
+            "S_5488"
+          ]
+        },
+        "S_5488": {
+          "index": 92,
+          "link": "S_2168",
+          "depth": 14,
+          "children": [
+            "S_6188"
+          ]
+        },
+        "S_6188": {
+          "index": 93,
+          "link": "S_5488",
+          "depth": 15,
+          "children": [
+            "S_9578"
+          ]
+        },
+        "S_9578": {
+          "index": 94,
+          "link": "S_6188",
+          "depth": 16,
+          "children": [
+            "S_3694"
+          ]
+        },
+        "S_3694": {
+          "index": 95,
+          "link": "S_9578",
+          "depth": 17,
+          "children": [
+            "S_6732"
+          ]
+        },
+        "S_6913": {
+          "index": 98,
+          "link": "S_0113",
+          "depth": 3,
+          "children": [
+            "S_9256"
+          ]
+        },
+        "S_9256": {
+          "index": 99,
+          "link": "S_6913",
+          "depth": 4,
+          "children": [
+            "S_2881"
+          ]
+        },
+        "S_2881": {
+          "index": 100,
+          "link": "S_9256",
+          "depth": 5,
+          "children": [
+            "S_0956"
+          ]
+        },
+        "S_0956": {
+          "index": 101,
+          "link": "S_2881",
+          "depth": 6,
+          "children": [
+            "S_4697"
+          ]
+        },
+        "S_4697": {
+          "index": 102,
+          "link": "S_0956",
+          "depth": 7,
+          "children": [
+            "S_3731"
+          ]
+        },
+        "S_3731": {
+          "index": 103,
+          "link": "S_4697",
+          "depth": 8,
+          "children": [
+            "S_5523"
+          ]
+        },
+        "S_5523": {
+          "index": 104,
+          "link": "S_3731",
+          "depth": 9,
+          "children": [
+            "S_3468"
+          ]
+        },
+        "S_3468": {
+          "index": 105,
+          "link": "S_5523",
+          "depth": 10,
+          "children": [
+            "S_0232"
+          ]
+        },
+        "S_0232": {
+          "index": 106,
+          "link": "S_3468",
+          "depth": 11,
+          "children": [
+            "S_9178"
+          ]
+        },
+        "S_9178": {
+          "index": 107,
+          "link": "S_0232",
+          "depth": 12,
+          "children": [
+            "S_0208"
+          ]
+        },
+        "S_0208": {
+          "index": 108,
+          "link": "S_9178",
+          "depth": 13,
+          "children": [
+            "S_1100"
+          ]
+        },
+        "S_1100": {
+          "index": 109,
+          "link": "S_0208",
+          "depth": 14,
+          "children": [
+            "S_1509"
+          ]
+        },
+        "S_1509": {
+          "index": 110,
+          "link": "S_1100",
+          "depth": 15,
+          "children": [
+            "S_7014"
+          ]
+        },
+        "S_9003": {
+          "index": 112,
+          "link": "S_7014",
+          "depth": 2,
+          "children": [
+            "S_8248"
+          ]
+        },
+        "S_8248": {
+          "index": 113,
+          "link": "S_9003",
+          "depth": 3,
+          "children": [
+            "S_5647"
+          ]
+        },
+        "S_5647": {
+          "index": 114,
+          "link": "S_8248",
+          "depth": 4,
+          "children": [
+            "S_6006"
+          ]
+        },
+        "S_6006": {
+          "index": 115,
+          "link": "S_5647",
+          "depth": 5,
+          "children": [
+            "S_8817"
+          ]
+        },
+        "S_8817": {
+          "index": 116,
+          "link": "S_6006",
+          "depth": 6,
+          "children": [
+            "S_1560"
+          ]
+        },
+        "S_1560": {
+          "index": 117,
+          "link": "S_8817",
+          "depth": 7,
+          "children": [
+            "S_4129"
+          ]
+        },
+        "S_4129": {
+          "index": 118,
+          "link": "S_1560",
+          "depth": 8,
+          "children": [
+            "S_5915"
+          ]
+        },
+        "S_5915": {
+          "index": 119,
+          "link": "S_4129",
+          "depth": 9,
+          "children": [
+            "S_2423"
+          ]
+        },
+        "S_2423": {
+          "index": 120,
+          "link": "S_5915",
+          "depth": 10,
+          "children": [
+            "S_0101"
+          ]
+        },
+        "S_0101": {
+          "index": 121,
+          "link": "S_2423",
+          "depth": 11,
+          "children": [
+            "S_6592"
+          ]
+        },
+        "S_6592": {
+          "index": 122,
+          "link": "S_0101",
+          "depth": 12,
+          "children": [
+            "S_2115"
+          ]
+        },
+        "S_2115": {
+          "index": 123,
+          "link": "S_6592",
+          "depth": 13,
+          "children": [
+            "S_7201"
+          ]
+        },
+        "S_7201": {
+          "index": 124,
+          "link": "S_2115",
+          "depth": 14,
+          "children": [
+            "S_7681"
+          ]
+        },
+        "S_7681": {
+          "index": 125,
+          "link": "S_7201",
+          "depth": 15,
+          "children": [
+            "S_4749"
+          ]
+        },
+        "S_4749": {
+          "index": 126,
+          "link": "S_7681",
+          "depth": 16,
+          "children": [
+            "S_6838"
+          ]
+        },
+        "S_6838": {
+          "index": 127,
+          "link": "S_4749",
+          "depth": 17,
+          "children": [
+            "S_8095"
+          ]
+        },
+        "S_8095": {
+          "index": 128,
+          "link": "S_6838",
+          "depth": 18,
+          "children": [
+            "S_0021"
+          ]
+        },
+        "S_0021": {
+          "index": 129,
+          "link": "S_8095",
+          "depth": 19,
+          "children": [
+            "S_4713"
+          ]
+        },
+        "S_4713": {
+          "index": 130,
+          "link": "S_0021",
+          "depth": 20,
+          "children": []
+        }
+      },
+      "max_depth": 20,
+      "node_count": 112,
+      "root_nodes": [
+        "S_4467"
+      ]
+    },
+    "fractal_hashes": {
+      "S_4467": "8430cf0a14ee56e625fc4a2a4d292446a4416e82726e2d56974397b673a49c27",
+      "S_8491": "5992ccd6e54d404022c26d4ead497b4c3b1909dd50d300cc3d50475cbd7ce9bf",
+      "S_3839": "ab225161736b43e2d409f755cf1f5f726711c01a7c9de7a90ec1a4337d7d42a9",
+      "S_3918": "c5aae72f950daa6cd5fe5d5d3d398d0d29dd265e9537a465750e801a9ccfba9c",
+      "S_1867": "521515aa1b56145ecf2db6395353496db37112d731b64ae54322cb5beccb0f10",
+      "S_2332": "05397a5d12861f38652a6f4f13583c72900b613c173e15d3038d68f0343dd908",
+      "S_6732": "98565ca3fc07739621811fd4b2ce0251ac48b9fefce292d62966b206d20816fa",
+      "S_0113": "faa4903b886d9df5121829cf153d14d924149dafeb572b74bf509fead159e28d",
+      "S_6640": "3cb8fad45286f9117edeaeff52ae73652665a0983b535aa7797b3376fb3996d7",
+      "S_3680": "24bf6d6d0babfe99a7cd938507382eae83daee176325693fdc4593f07062ad1c",
+      "S_4391": "791ab5379046892bcf0549837f905e1016c77790776fc0c335fb4142d2b52f82",
+      "S_6548": "e01721a0343de4122784b5892392a27af5e7f632fd6c5161b0610f2c1c401529",
+      "S_1588": "cddb2c705fd995efd64828b723f923e0f785c1fdb2bc7e0900e9166e294bdcba",
+      "S_0707": "ff7bb1776d7ff27535ace3e7c4e093b75271c7f76b55bb3183fa03ee70974301",
+      "S_7892": "0467cc185d311de0ae60cfd9548cefc4e9e2430531e4c41c3e1528bed4f98dbe",
+      "S_3937": "0632f7d8110ec06d40e70bde52021870a83ddf387f01cbcd675bd4416ce6b3ff",
+      "S_6299": "e9e58a3a02277d279e18d20e2813a912155e506acafab7f004712aa524d9d74d",
+      "S_7691": "13e59b6ae6753b05d904a1b735f890c8cd951644c887796122f20646ac101620",
+      "S_5773": "967d14eb4802f929ffe4fc94ed85b233d211ffff04477f125b1dc0df5e739d57",
+      "S_6637": "3f284f707c07cbc3fa7086803977f5776c0671faa4ac7abd2a3e050bd1751e58",
+      "S_2935": "17ae568715783583821d88e0ac5fccd3f5ff1a33bd545cf47e2da9ec803091a1",
+      "S_4888": "56fd42660a0ce8f231d42f9bed1528cad283fda986b0b11473689752c79cd474",
+      "S_3892": "b378f7b3a6662134368248ca6903c550cc2234221f90e2acb6e139d4594652ca",
+      "S_0488": "2e5489047866b3714a2526b47d50afe99ca924fdd334a60a9945d3177f675b7d",
+      "S_8399": "d42677b7b910486269264a4375a1057d35f8d3cc5e36aad7afec0686600672db",
+      "S_3334": "6d94347be2dbdd9fc052487668f2a61bedb0c30ee78730502b600339402eed5d",
+      "S_1276": "8bf1cfffed1cb40e34f626a82498f3ec25e1b8604aa66b697ab40f69808f00d3",
+      "S_7417": "9daf59da39e83ae3e3cc40cdfee51966f8cf9e3c15578c111d17fbd24a81ff79",
+      "S_3866": "c79348a94aad589f16b0e7b8de269e094b2d3d572fc5387e8505f626aac49766",
+      "S_2441": "02213e09953c1abc73701d692220b606fafc9a0d6a74086865ef5bc16b37db02",
+      "S_9094": "5427fec263419d226c8bbca558c8f92f80a3a5bc502dc5df3fbdff23b68ec7a9",
+      "S_1690": "fa6d6a85616816168682ca7d8cacc013cc1fefb19f9004a4d327b5031fc87876",
+      "S_6778": "3aaea3f98719af3326242a3390655ae571d41eedd86df31b5250fa4ba19c1b9a",
+      "S_5507": "6e221ef3dc1724833a07e8f43605134fb03fc57f46de7655671d909cea8cb552",
+      "S_0953": "b70a2c455b3d412eba7ad83dbb2b255ee71c1ddbe940fe48321e4cbe044d0fda",
+      "S_1108": "6678d7c8b53bf927c7bff3318a952330b223109c6b7003fab62a6e0db33649fd",
+      "S_5593": "8424b566429bc8a3a2b60179195b2ef8e3b7e8715a55b77d3057cb06821c840d",
+      "S_4390": "6a63f972a44d78b7c95676e094573fd84c940440f16cdbf16a114317898ddbad",
+      "S_4142": "058f22656b3578ac242e909e9921bdd813dcbcb3294ac3928e9792b7ec70aa02",
+      "S_4230": "97011dfa4adb36e385cbe03f79a04f563ba63ae46bd79894b24af86d6268c8b1",
+      "S_6946": "95d4e9cbdf0f706bd8b6804ada9c66216bf798dc34317a99bfbc63eabfc908a7",
+      "S_2009": "012830d55e56c1ba0814b6d8d4136e5971c3135f58829cbb385233c7ab2a00af",
+      "S_5497": "60987a313cf51a088aaf6f244435cd1aadca761f178832e9599877cc25beb070",
+      "S_5078": "45b9d4db134f6666e018fba9931ed425fd8380723b3539ac6c3e9b1d0021a7d5",
+      "S_2788": "2e7cb6fc7477392588f7b5dfd6a99660346a3ca478f66aa56decf2bfa2d8088a",
+      "S_0088": "9056abe3aec7b138565c1f4d68cf3b4b0b4c49e3ae0fb691c5d2fee598352176",
+      "S_6194": "42a2d64621d19c927d0ae0b8c3bfa081763b07f890f2d41708beb3d8eed9a3fc",
+      "S_6442": "94670208c38afa7631b237073968ca866f90bb2e978a282628203fd40d8d6868",
+      "S_2774": "8c9d32814d4f04d6753a5286c2ec6757846d8fe1adfee8759f45955d7249d2fe",
+      "S_2271": "be57364f0525cefda6d293aa5bb0a684a9220b750b33148e4cf682275ca0e759",
+      "S_6154": "ee290377b40544c434646335489b4c5c8a983793f4ed8b175f52e3803630865b",
+      "S_2370": "adb50c1b8a3c12bdb202d9832b53bc0a9d2daf6949e9efc0e2da4c72b1bfc510",
+      "S_7362": "76021dddab29486c4dd5dfa943c8595a75b763bb05f73a68377f1f779cadd44d",
+      "S_4165": "2ef0efb48038be5230e018f6d1eed0c64187741cdc3635c9251f4fcee643d979",
+      "S_8633": "94f0cb629c1d77cc1c2e2efe3c86369147d5bf131c2c66b7bbec7c6f96545402",
+      "S_8927": "7c7ff1dd9ca2c2146ac6baf4fc5efba2cbbb53617db93d7c078425c5e96b1f61",
+      "S_5634": "11c6b44b5c62589c9b624d7a7bf9d7b08c60a0cfd92766008d0923b5105596a7",
+      "S_0968": "17cc6452253e1429d6a05a55bb7f5f10f45b05f4484a42920c06cb11ef71d1cd",
+      "S_7750": "3ea46e43be7d0137aaf7e886f6ae0b12546f5214ee536215e38c035c135d0782",
+      "S_5268": "12857b8b3be6c6fdcc02adcbcf11c15e0cfc7ab88d41a8ac99d123a165496631",
+      "S_3355": "ccf9a2a003252d81cf0ce7b38a2d358413dd87a3a24fcebea4041c46622e3c51",
+      "S_4105": "5862a27861f0ecf3c1e09949c5a5652f7bfad16684f72e2e5b9cb773ed117875",
+      "S_0336": "01862955c684682b6b5d79e093530dfa1ac435d29b1a9e89cd64ea2a61426606",
+      "S_7014": "359f349bc88893a4a44a495f1eea9f9cc4f5b6d1dc630441dbfc8ba8dd3824c3",
+      "S_4942": "fbd3dad312cd7ef3c63b1725ee96b4478acf1b876b7a904420406b5e7090d326",
+      "S_9089": "c17666fefed53ef22512d5a6c1e175e60258e42b467019be09ce1fb01cb9c5e7",
+      "S_3819": "5095a724e74a240dd811304d4d6cfae223955f226f0254548707b659576f0c07",
+      "S_2076": "e85250c415df26c685a34043714ea96722aba649282a275a3f01f67784dc8570",
+      "S_3592": "04c308819666fbb91887adf21024635e6e544977547a3cc161089bc6a94b35d1",
+      "S_8797": "8a301d73390992b78ad1fccd11dd97851ab9d6e0ada73a736ef996f61290bd53",
+      "S_7579": "ef2de7ddf2daf268ab5e6250378c1d6f9802941e19a41adfb83c60c20045d760",
+      "S_7431": "870cb1e982f3d77f42119ea39e039e090e95a2118196c195e612cef4464340c9",
+      "S_1162": "74ac0922fcfd0a09da968bf602510ae466dbcfeb025c81f5b688b82fe6b4acfa",
+      "S_4916": "63bb8c2f3c567c4f7dd8505cdefb46dbfdfff632814243124dde6f3644e259e5",
+      "S_7227": "7cbe2eebee3c3237a4ff985d62551ba65650997e4349a6a76bda7075c9fb117b",
+      "S_2168": "e6b3ebba9ae0f2217846f987bc315e92afa5a30c5c20ac3e431206785192fefa",
+      "S_5488": "8b7e8c90708378b15cc6488b1bf58115bc249e290a53055ea6997e79b515f1b8",
+      "S_6188": "2c233a3245b28e5d9a62e23a2dd8ca1fb2c6f5a9be06465d172d3ff51afa76bc",
+      "S_9578": "dfc1bf3e17a93319bc3492f372bd6f3637b87351de37b10cc179531991b7dc79",
+      "S_3694": "43bd6a0f276ba0f38d69366f7c19723218a55d1ad34d54d52ad8a58852d0080d",
+      "S_6913": "52762df96f1539c8855fe7b80d76e33ae164fa09663da019fbab96f3d3bbbf90",
+      "S_9256": "8a995fe76652db024e8979c3c489b6d353ca34639259ef3d4c621ada96e682a5",
+      "S_2881": "f36e628a613795ce02963d52a9ae3139e6da3ef22ea3f485adec7d72a3ab8f25",
+      "S_0956": "be8d7b29aa8a9d73a0105cdd6c659b34e13c71c0f69f60e7430a1091a4e1663e",
+      "S_4697": "5a16243bfed5772865e56a7ddb1af26b826996675fb404dc8b622452fee9b003",
+      "S_3731": "844a520cdce152cdcc5dfbc8a72305d277a1f6643f6bd6fab3f0bb6d85e123e6",
+      "S_5523": "0a069869c726a1432c565bd4fe9fa16d3149b3d80673071a7adc5813dcb654e8",
+      "S_3468": "bb40788137ea97f1678bdd36601040f7008a64f90f44290e65201b13fbb465a4",
+      "S_0232": "f5cc20d7793fc95d1193eaba820577042d929e3935be24a3e04d1d5f55a888aa",
+      "S_9178": "14f5597e27b8671e1342265318488c8f56ed4e4db24e4c9548749b1a138013db",
+      "S_0208": "7991580ddf95fbf17e73b520e704509a48e7d9ec70421e7641ed4cad81c867e7",
+      "S_1100": "8b5c15952d4d52eba531e23fcb9262f11eba7523fd986994ebcda4c3bbcde056",
+      "S_1509": "6ead1006b186df92d1f7ee170f771926c49901364132e38022f5a5428a3e6d76",
+      "S_9003": "5c5e6bec5b53020fecb3b5f14a587a42b4f8cf43e2ec4977f67e60e4e30eba44",
+      "S_8248": "198879cddc329aa10c8247fb4f04303ac1c2062d2c84cf58a66c7864c6818914",
+      "S_5647": "d7613c89f4031d0552ed686a5729ef81f17193872732fc32f5f9fc1c99b7ca52",
+      "S_6006": "d0cbffc58960d1c045be6e82a4746f76074b21aaa894e4f563cdb236e0b45215",
+      "S_8817": "0cb3e685110d23f4bf63dd836b3c232ed5c5f2a4de7e9afb734b2aa80d3203e1",
+      "S_1560": "42ef9186668b5e0f38b90c232855a5715222ab9c830a0d1045df15f5e0d447ef",
+      "S_4129": "ae3f0b2b28d0755bb15a1da5c9e1f33bec58210131b48a77f992a794f7023ea7",
+      "S_5915": "a4a2d7637e219e618b9bc1adb3fcfa71729167f55adbdd20ad5cdcf8adcaeba2",
+      "S_2423": "1315bba5fa7493058d15c8a19582799e6cecc106df3f2b99a69b7fe636f8bd42",
+      "S_0101": "8365a12be9429f9e4d5feed303d0f6755a70339db62cfc6281d6674739de3219",
+      "S_6592": "cabb5ee2f85fbae3187e9c7773eb2878611483e8487cb897c6d3af9ca212aded",
+      "S_2115": "00ce80fd4a452103ea6124ae51876ec34fbad8144f2635ae4135a3c7e61aec69",
+      "S_7201": "cab6337b4efbc00ccc1bb5ba398d5b230ff4c673fee60c3a1d27f3d6c1d85a0f",
+      "S_7681": "87a8f2527676c6e49a14f8563fbef585f1c4ad2e1414b7d005a8aa063a3298fc",
+      "S_4749": "463352663135f80987d3ee6c5e6d50e721fe1f417ccce1fae4df3f8c60a823bf",
+      "S_6838": "786aec5fb26c0fdd963d9bbba474a566975b07ce91bad8f514c987701e42cc8e",
+      "S_8095": "c4bbf1f8d00187d28f1c94381d47046c054aab15a5429e582dd728c7c2f7cf59",
+      "S_0021": "b03f44c35e63caa8510382eb38a93e81c9821551607a000c9a00b22064b61a04",
+      "S_4713": "85cb3b6726c963cbef27d43826f6e7fc7ced6223c7ca5a64d1fa5f9186580321"
+    },
+    "fingerprint": "ba8b12b0e60bd27bdb0bb97892879f68ec86817ed80cd173152914463a00ccc7",
+    "compression_ratio": 1.0076335877862594,
+    "metadata": {},
+    "timestamp": null,
+    "symbol_count": 131,
+    "unique_symbols": 112,
+    "tree_depth": 20
+  },
+  "recursive_compression": {
+    "original_symbols": [
+      "S_4467",
+      "S_8491",
+      "S_3839",
+      "S_3918",
+      "S_1867",
+      "S_2332",
+      "S_6732",
+      "S_0113",
+      "S_6640",
+      "S_3680",
+      "S_4391",
+      "S_6548",
+      "S_1588",
+      "S_0707",
+      "S_7892",
+      "S_3937",
+      "S_6299",
+      "S_7691",
+      "S_5773",
+      "S_6637",
+      "S_2935",
+      "S_4888",
+      "S_3918",
+      "S_3892",
+      "S_0488",
+      "S_8399",
+      "S_3334",
+      "S_1276",
+      "S_7417",
+      "S_3866",
+      "S_2441",
+      "S_9094",
+      "S_1690",
+      "S_6778",
+      "S_5507",
+      "S_0953",
+      "S_1108",
+      "S_5593",
+      "S_4888",
+      "S_4390",
+      "S_4142",
+      "S_4230",
+      "S_6946",
+      "S_6299",
+      "S_2009",
+      "S_5497",
+      "S_1867",
+      "S_5078",
+      "S_2788",
+      "S_0088",
+      "S_6194",
+      "S_6442",
+      "S_2774",
+      "S_2788",
+      "S_3839",
+      "S_4888",
+      "S_1108",
+      "S_2271",
+      "S_6154",
+      "S_2370",
+      "S_7362",
+      "S_4165",
+      "S_8633",
+      "S_8927",
+      "S_5634",
+      "S_3839",
+      "S_3918",
+      "S_3866",
+      "S_0968",
+      "S_2370",
+      "S_7362",
+      "S_7750",
+      "S_5268",
+      "S_3355",
+      "S_4105",
+      "S_2009",
+      "S_6548",
+      "S_0336",
+      "S_6194",
+      "S_7014",
+      "S_4942",
+      "S_9089",
+      "S_3819",
+      "S_2076",
+      "S_3592",
+      "S_8797",
+      "S_7579",
+      "S_7431",
+      "S_1162",
+      "S_4916",
+      "S_7227",
+      "S_2168",
+      "S_5488",
+      "S_6188",
+      "S_9578",
+      "S_3694",
+      "S_6732",
+      "S_0113",
+      "S_6913",
+      "S_9256",
+      "S_2881",
+      "S_0956",
+      "S_4697",
+      "S_3731",
+      "S_5523",
+      "S_3468",
+      "S_0232",
+      "S_9178",
+      "S_0208",
+      "S_1100",
+      "S_1509",
+      "S_7014",
+      "S_9003",
+      "S_8248",
+      "S_5647",
+      "S_6006",
+      "S_8817",
+      "S_1560",
+      "S_4129",
+      "S_5915",
+      "S_2423",
+      "S_0101",
+      "S_6592",
+      "S_2115",
+      "S_7201",
+      "S_7681",
+      "S_4749",
+      "S_6838",
+      "S_8095",
+      "S_0021",
+      "S_4713"
+    ],
+    "compressed_sequence": [
+      "S_4467",
+      "S_8491",
+      "S_3839",
+      "S_3918",
+      "S_1867",
+      "S_2332",
+      "S_6732",
+      "S_0113",
+      "S_6640",
+      "S_3680",
+      "S_4391",
+      "S_6548",
+      "S_1588",
+      "S_0707",
+      "S_7892",
+      "S_3937",
+      "S_6299",
+      "S_7691",
+      "S_5773",
+      "S_6637",
+      "S_2935",
+      "S_4888",
+      "S_3918",
+      "S_3892",
+      "S_0488",
+      "S_8399",
+      "S_3334",
+      "S_1276",
+      "S_7417",
+      "S_3866",
+      "S_2441",
+      "S_9094",
+      "S_1690",
+      "S_6778",
+      "S_5507",
+      "S_0953",
+      "S_1108",
+      "S_5593",
+      "S_4888",
+      "S_4390",
+      "S_4142",
+      "S_4230",
+      "S_6946",
+      "S_6299",
+      "S_2009",
+      "S_5497",
+      "S_1867",
+      "S_5078",
+      "S_2788",
+      "S_0088",
+      "S_6194",
+      "S_6442",
+      "S_2774",
+      "S_2788",
+      "S_3839",
+      "S_4888",
+      "S_1108",
+      "S_2271",
+      "S_6154",
+      "S_2370",
+      "S_7362",
+      "S_4165",
+      "S_8633",
+      "S_8927",
+      "S_5634",
+      "S_3839",
+      "S_3918",
+      "S_3866",
+      "S_0968",
+      "S_2370",
+      "S_7362",
+      "S_7750",
+      "S_5268",
+      "S_3355",
+      "S_4105",
+      "S_2009",
+      "S_6548",
+      "S_0336",
+      "S_6194",
+      "S_7014",
+      "S_4942",
+      "S_9089",
+      "S_3819",
+      "S_2076",
+      "S_3592",
+      "S_8797",
+      "S_7579",
+      "S_7431",
+      "S_1162",
+      "S_4916",
+      "S_7227",
+      "S_2168",
+      "S_5488",
+      "S_6188",
+      "S_9578",
+      "S_3694",
+      "S_6732",
+      "S_0113",
+      "S_6913",
+      "S_9256",
+      "S_2881",
+      "S_0956",
+      "S_4697",
+      "S_3731",
+      "S_5523",
+      "S_3468",
+      "S_0232",
+      "S_9178",
+      "S_0208",
+      "S_1100",
+      "S_1509",
+      "S_7014",
+      "S_9003",
+      "S_8248",
+      "S_5647",
+      "S_6006",
+      "S_8817",
+      "S_1560",
+      "S_4129",
+      "S_5915",
+      "S_2423",
+      "S_0101",
+      "S_6592",
+      "S_2115",
+      "S_7201",
+      "S_7681",
+      "S_4749",
+      "S_6838",
+      "S_8095",
+      "S_0021",
+      "S_4713"
+    ],
+    "patterns": {},
+    "compression_stats": {
+      "original_size": 131,
+      "compressed_size": 131,
+      "compression_ratio": 1.0,
+      "space_saved": 0,
+      "compression_percentage": 0.0,
+      "pattern_count": 0,
+      "compression_time": 0.002645254135131836
+    }
+  },
+  "combined_stats": {
+    "frsoe_stats": {
+      "original_size": 132,
+      "codex_size": 131,
+      "compression_ratio": 1.0076335877862594,
+      "space_saved": 1,
+      "compression_percentage": 0.7575757575757576,
+      "symbol_count": 131,
+      "unique_symbols": 112,
+      "tree_depth": 20,
+      "fingerprint": "ba8b12b0e60bd27bdb0bb97892879f68ec86817ed80cd173152914463a00ccc7"
+    },
+    "recursive_stats": {
+      "original_size": 131,
+      "compressed_size": 131,
+      "compression_ratio": 1.0,
+      "space_saved": 0,
+      "compression_percentage": 0.0,
+      "pattern_count": 0,
+      "compression_time": 0.002645254135131836
+    },
+    "overall_compression_ratio": 1.0,
+    "total_space_saved": 0,
+    "pattern_count": 0
+  }
+}

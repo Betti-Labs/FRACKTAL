@@ -13,8 +13,10 @@ import tempfile
 import shutil
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from frsoe import FRSOE, SymbolicEngine, CodexMap, SymbolicTree, FractalHash
-from frsoe.utils import entropy_analysis, visualize_tree, generate_codex
+import plotly.graph_objects as go
+
+from fracktal import FRSOE, SymbolicEngine, CodexMap, SymbolicTree, FractalHash
+from fracktal.utils import entropy_analysis, visualize_tree, generate_codex
 
 
 class TestSymbolicEngine(unittest.TestCase):

@@ -13,4 +13,8 @@ ipywidgets>=7.0.0
 
 # CLI interface
 click>=8.0.0
-rich>=10.0.0 
+rich>=10.0.0
+
+# MCP Server
+mcp
+rank-bm25>=0.2.2

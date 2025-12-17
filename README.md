@@ -1,42 +1,197 @@
-# FRACKTAL: Fractal Recursive Symbolic Ontology Engine
+# Fracktal MCP - Event-Sourced, Verifiable Memory for AI Agents
+### By [GoryGrey](https://github.com/GoryGrey) | Gregory Betti
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](tests/)
-[![Compression](https://img.shields.io/badge/compression-2.83x%20avg-orange.svg)](compression/)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![MCP Ready](https://img.shields.io/badge/MCP-Ready-green.svg)](https://modelcontextprotocol.io)
 
-**Advanced semantic compression through recursive symbolic pattern recognition with perfect reconstruction capabilities.**
+Fracktal MCP is a local, plug-and-play MCP server that turns every agent action-tool calls, diffs, tests, plans-into an immutable, lossless event log. Agents can resume any project with a single `restore_working_set` call, search through hybrid structural/lexical/vector indexes, and verify historical context via SHA256-stamped artifacts. Everything runs locally by default, with optional embeddings for semantic recall.
 
-## Overview
+---
 
-FRACKTAL (Fractal Recursive Symbolic Ontology Engine)   The system employs recursive symbolic ontology (RSO) to extract meaningful patterns from data structures, followed by fractal hash collapse to create compact representations while maintaining perfect reconstruction fidelity.
+## Why teams use Fracktal MCP
 
-### Core Innovation
+- **Event-sourced timeline** - Every tool run, file diff, test result, decision, and checkpoint is stored as a typed event with content-addressed payloads.
+- **Lossless & auditable** - Storage is powered by the FRACKTAL recursive symbolic engine; compression is reversible and verifiable (hashes match byte-for-byte on restore).
+- **Hybrid retrieval** - Structural fingerprints (FRACKTAL symbols) are fused with BM25 lexical scoring and optional sentence-transformer embeddings, plus metadata filters.
+- **Working-set restore** - Cold-start an agent by pulling the latest checkpoint, recent diffs/logs/tests, and open decisions in one tool call.
+- **Local-first** - Runs entirely on your machine; embeddings (if enabled) can use local transformer weights. No network calls unless you opt in.
 
-Unlike conventional compression algorithms that focus solely on statistical redundancy, FRACKTAL operates on the principle that data contains inherent structural patterns that can be represented symbolically. This approach enables:
+---
 
-- **Semantic Pattern Recognition**: Identifies meaningful structural relationships within data
-- **Perfect Reconstruction**: Bit-perfect recovery of original data without information loss
-- **Universal Applicability**: Operates on any structured data format without domain-specific optimization
-- **Computational Efficiency**: Fast processing with minimal resource requirements
+## Quick start
 
-## Technical Architecture
+```bash
+git clone https://github.com/GoryGrey/Fracktal-MCP.git
+cd Fracktal-MCP
+pip install -e .
 
-### Recursive Symbolic Ontology (RSO)
+# run the MCP server locally
+python -m mcp_server.server
+```
 
-The RSO component treats meaning as a recursive pattern, encoding symbolic structure through overlapping data chunks. Each chunk is assigned a unique symbolic identifier, creating a hierarchical tree representation of the data's semantic structure.
+Configure your MCP client (Claude Desktop example):
 
-### Fractal Hash Collapse
+```json
+{
+  "mcpServers": {
+    "fracktal-memory": {
+      "command": "python",
+      "args": ["-m", "mcp_server.server"],
+      "cwd": "/path/to/FRACKTAL"
+    }
+  }
+}
+```
 
-Symbolic identifiers undergo recursive hashing to collapse the tree into fractal attractor space, creating compact representations that preserve structural entropy while enabling perfect reconstruction.
+Optional embeddings (hybrid retrieval adds vectors on top of structural+BM25):
 
-### Recursive Pattern Compression
+```bash
+pip install sentence-transformers
+export FRACKTAL_ENABLE_EMBEDDINGS=1
+# optional: override model
+export FRACKTAL_EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+```
 
-The system implements a novel pattern detection algorithm that identifies repeating symbolic sequences and creates reversible mappings, achieving compression ratios of 2-6x on structured data while maintaining perfect reconstruction.
+---
 
-## Performance Characteristics
+## Working with any MCP-capable agent
 
-### Compression Performance
+Fracktal MCP exposes a clean tool surface so every agent (Claude Desktop, Cursor, Bespoke python loops, etc.) can persist its lifecycle without bespoke glue. See **docs/mcp_usage.md** for recommended prompts/policies.
+
+| Tool | Purpose |
+|------|---------|
+| `store_memory` | Raw lossless storage (notes, transcripts, artifacts). |
+| `record_tool_run` | Capture tool inputs/outputs + status. |
+| `record_file_change` | Persist diffs or file snapshots (auto-tagged by `path`). |
+| `record_test_result` | Store test metadata + logs. |
+| `create_checkpoint` / `get_latest_checkpoint` | Maintain working-set summaries & plans. |
+| `list_events` | Filter event timeline by project/type. |
+| `search_memories` | Hybrid structural/BM25/(optional) embedding retrieval with metadata filters. |
+| `restore_working_set` | Return latest checkpoint + grouped recent events so an agent can resume instantly. |
+
+Everything is scoped by `project_id`, `session_id`, `event_type`, `tags`, and optional `path` metadata. Use those knobs to isolate multiple repos or workloads on the same server.
+
+---
+
+## Working-set restore in practice
+
+```jsonc
+// restore_working_set(project_id="alpha-app", recent_limit=10)
+{
+  "project_id": "alpha-app",
+  "checkpoint": {
+    "content": "Checkpoint body ...",
+    "metadata": {
+      "summary": "After fixing login regression",
+      "tags": ["plan", "checkpoint"],
+      "timestamp": 1734417680.12,
+      "id": "d6f5..."
+    }
+  },
+  "recent_events": {
+    "file_diff": [
+      {"id": "a1b2...", "path": "src/auth.py", "summary": "File change: src/auth.py"}
+    ],
+    "test_result": [
+      {"id": "c3d4...", "summary": "Test test_login: failed", "tags": ["tests"], "timestamp": 1734417671.44}
+    ],
+    "tool_run": [
+      {"id": "e5f6...", "summary": "Tool pytest (failure)", "tags": ["logs", "pytest"]}
+    ],
+    "note": [],
+    "decision": [],
+    "plan_update": []
+  },
+  "recent_count": 5
+}
+```
+
+An agent can immediately reload goals, the latest plan, and the precise diffs/tests/logs needed to continue coding-even after days offline.
+
+---
+
+## Hybrid retrieval & metadata filters
+
+`search_memories` fuses three complementary scores:
+
+1. **Structural** - Jaccard similarity over FRACKTAL symbolic fingerprints (lossless structural understanding).
+2. **Lexical (BM25)** - Default dependency; great for identifiers, error messages, stack traces.
+3. **Vector (optional embeddings)** - Sentence-transformer cosine similarity for paraphrases.
+
+Weights are tuned to favor structural matches while still surfacing lexical/vector results. Every search call supports filters: `project_id`, `session_id`, `event_types`, `kinds`, `tags`, `path`. Pass an empty query to fetch the most recent scoped events.
+
+---
+
+## Testing, benchmarking, and verification
+
+### Automated tests
+
+```bash
+python -m pytest
+```
+
+32 tests cover the FRSOE primitives and the full project-aware MCP flow (lossless storage, hybrid search filters, working-set restore, optimizer).
+
+### Stress & throughput profiling
+
+```bash
+python stress_test_demo.py --num-memories 100 --storage-dir benchmark_memories --sample-size 15
+```
+
+- 100 synthetic memories stored in ~5.5s on a Windows 11 workstation (Python 3.13) -> **~18 mem/s**.
+- 0 integrity errors (perfect recall).
+- Semantic search latency: **~4-7 ms/query** for a single-result search (structural + BM25).
+
+### Deterministic benchmark harness
+
+```bash
+python benchmarks/run_benchmarks.py --storage-dir tmp_bench --output bench_report.json
+cat bench_report.json
+```
+
+Sample output (reproducible, uses SHA256 equality to prove lossless storage):
+
+```json
+{
+  "lossless_failures": [],
+  "records": 5,
+  "memories_per_second": 20.86,
+  "retrieval": {
+    "fracktal": {"recall_at_5": 1.0, "mrr": 0.83},
+    "bm25_only": {"recall_at_5": 1.0, "mrr": 0.75}
+  }
+}
+```
+
+Use this harness in CI to catch regressions in lossless recall or hybrid ranking.
+
+---
+
+## Architecture snapshot
+
+- **FRACKTAL Engine (FRSOE)** - Recursive symbolic ontology that produces reversible codices for every artifact (see appendix).
+- **Event Store** - Disk-backed, content-addressed JSON codices plus a metadata index (`fracktal_memories/index.json`).
+- **Indexes** - Symbol frequency lists, BM25 corpus, and optional embedding vectors kept in sync as events arrive.
+- **MCP Surface** - `mcp_server/server.py` exposes typed tools for storage, retrieval, event logging, checkpoints, and working-set restore.
+
+Because everything is append-only and hashed, you can rebuild indexes safely or audit change history at any time.
+
+---
+
+## Documentation
+
+- **docs/mcp_usage.md** - Agent integration guide, recommended tool policies, and JSON examples.
+- **docs/concepts.md** - A deeper look at FRSOE symbolism, fractal hashing, and entropy preservation.
+- Stress/benchmark scripts - `stress_test_demo.py`, `benchmarks/run_benchmarks.py`.
+
+Contributions are welcome via standard GitHub PRs; see `CONTRIBUTING.md`.
+
+---
+
+## Appendix: FRSOE compression highlights
+
+The MCP server is powered by the FRACKTAL Recursive Symbolic Ontology Engine (FRSOE). For completeness, the original compression characteristics are preserved below.
+
+### Compression performance
 
 | Data Type | Compression Ratio | Pattern Detection | Reconstruction |
 |-----------|------------------|-------------------|----------------|
@@ -45,201 +200,29 @@ The system implements a novel pattern detection algorithm that identifies repeat
 | Mixed Content | 1.17-1.43x | Good | Perfect |
 | Low Repetition | 1.17x | Moderate | Perfect |
 
-### Computational Efficiency
+### Computational efficiency
 
-- **Compression Speed**: 0.003-0.085s for typical datasets
-- **Reconstruction Speed**: 0.001-0.003s
-- **Memory Usage**: Minimal overhead, CPU-only operation
-- **Scalability**: Linear time complexity with data size
+- **Compression speed**: 0.003-0.085 s typical payloads
+- **Reconstruction speed**: 0.001-0.003 s
+- **Memory usage**: CPU-only, low overhead
+- **Scalability**: Near-linear with input size
 
-## Installation
-
-```bash
-pip install fracktal
-```
-
-### Development Installation
-
-```bash
-git clone https://github.com/Betti-Labs/FRACKTAL.git
-cd FRACKTAL
-pip install -e .
-```
-
-## Basic Usage
-
-```python
-from fracktal import RecursiveFRSOE
-
-# Initialize the engine
-engine = RecursiveFRSOE(
-    hash_depth=4,
-    symbol_range=10000,
-    min_pattern_length=4,
-    min_occurrences=3
-)
-
-# Compress data
-data = "Your structured data here"
-compressed_result = engine.compress(data)
-
-# Access compression statistics
-stats = compressed_result['combined_stats']
-print(f"Compression ratio: {stats['overall_compression_ratio']:.2f}x")
-print(f"Space saved: {stats['total_space_saved']} symbols")
-print(f"Patterns detected: {stats['pattern_count']}")
-
-# Reconstruct original data
-reconstructed = engine.reconstruct(compressed_result)
-assert data == reconstructed  # Perfect reconstruction guaranteed
-```
-
-## Advanced Features
-
-### Pattern Analysis
-
-```python
-# Detailed pattern analysis
-analysis = engine.get_detailed_analysis(compressed_result)
-pattern_details = analysis['pattern_analysis']['pattern_details']
-
-for pattern_id, details in pattern_details.items():
-    print(f"Pattern {pattern_id}: {details['length']} symbols, "
-          f"{details['occurrences']} occurrences, "
-          f"{details['space_saved']} symbols saved")
-```
-
-### Entropy Preservation
-
-```python
-# Analyze entropy preservation
-entropy_analysis = engine.frsoe.analyze_entropy(compressed_result['frsoe_codex'])
-print(f"Structural entropy preserved: {entropy_analysis['structural_entropy']:.3f}")
-```
-
-## Research Applications
-
-### Semantic Data Deduplication
-
-FRACKTAL's symbolic representation enables identification of structurally similar data even when content differs, making it ideal for:
-
-- Log analysis and pattern recognition
-- Database optimization and deduplication
-- API response caching and optimization
-
-### Version Control for Structured Data
-
-The system's perfect reconstruction capability combined with semantic fingerprinting provides:
-
-- Efficient tracking of structural changes in data
-- Compact representation of version history
-- Integrity verification for critical data
-
-### AI/ML Data Preprocessing
-
-FRACKTAL's symbolic extraction capabilities support:
-
-- Feature extraction from structured data
-- Training data compression while preserving semantic meaning
-- Efficient representation of knowledge graphs
-
-## Comparative Analysis
-
-### Against Traditional Compression
-
-| Metric | Traditional | FRACKTAL |
-|--------|-------------|----------|
-| Semantic Understanding | None | Advanced |
-| Perfect Reconstruction | Yes | Yes |
-| Pattern Recognition | Statistical | Structural |
-| Domain Specificity | High | None |
-
-### Against Semantic Compression Methods
-
-| Method | Compression | Reconstruction | Speed | Cost |
-|--------|-------------|---------------|-------|------|
-| LLM-Based | 10-50x | Lossy | Slow | High |
-| Neural | 5-20x | Lossy | Medium | Medium |
-| FRACKTAL | 2-6x | Perfect | Fast | Low |
-
-## Technical Specifications
-
-### System Requirements
-
-- Python 3.8+
-- 4GB RAM (recommended)
-- CPU-only operation (no GPU required)
-
-### Dependencies
-
-- numpy>=1.24.3
-- pandas>=2.0.3
-- matplotlib>=3.7.2
-- seaborn>=0.12.2
-- plotly>=5.15.0
-- networkx>=3.1
-- graphviz>=0.20.1
-- json5>=0.9.14
-
-## Documentation
-
-- [Core Concepts](docs/concepts.md) - Detailed explanation of RSO and fractal hashing
-- [API Reference](docs/api.md) - Complete API documentation
-- [Performance Guide](docs/performance.md) - Optimization and tuning
-- [Research Applications](docs/research.md) - Academic and research use cases
-
-## Contributing
-
-We welcome contributions from researchers and developers. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-### Development Setup
-
-```bash
-git clone https://github.com/Betti-Labs/FRACKTAL.git
-cd FRACKTAL
-pip install -r requirements.txt
-pytest tests/
-```
-
-## License
-
-FRACKTAL is released under a **dual-licensing model**:
-
-### Open Source License (MIT)
-- **Free for non-commercial use**: Research, education, personal projects
-- **Academic use**: Universities, research institutions, students
-- **Open source projects**: Non-commercial open source software
-
-### Commercial License (Required for Commercial Use)
-- **Commercial products**: Any software or service that generates revenue
-- **SaaS applications**: Web services, APIs, cloud platforms
-- **Enterprise software**: Internal tools, commercial applications
-- **Products sold to customers**: Software licenses, commercial services
-
-**Commercial licensing inquiries**: Contact gorygrey@protonmail.com
-
-For complete license terms, see [LICENSE](LICENSE).  
-For commercial licensing details, see [COMMERCIAL_LICENSING.md](COMMERCIAL_LICENSING.md).
+---
 
 ## Citation
 
-If you use FRACKTAL in your research, please cite:
+If you use FRACKTAL in research, please cite:
 
 ```bibtex
 @software{fracktal2024,
   title={FRACKTAL: Fractal Recursive Symbolic Ontology Engine},
   author={Betti, Gregory},
   year={2024},
-  url={https://github.com/Betti-Labs/FRACKTAL}
+  url={https://github.com/GoryGrey/Fracktal-MCP}
 }
 ```
 
-## Author
+## License / Contact
 
-**Gregory Betti** - Betti Labs  
-Email: gorygrey@protonmail.com  
-GitHub: [@Betti-Labs](https://github.com/Betti-Labs)
-
----
-
-*FRACKTAL represents a fundamental advancement in semantic compression technology, providing the only solution that combines perfect reconstruction with advanced semantic understanding at computational efficiency levels suitable for production deployment.* 
+MIT License for non-commercial use. Commercial licensing: gorygrey@protonmail.com.  
+GitHub: [@GoryGrey](https://github.com/GoryGrey)

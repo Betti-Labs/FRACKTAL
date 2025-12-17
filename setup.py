@@ -14,11 +14,11 @@ def read_requirements():
         return [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="fracktal",
+    name="fracktal-mcp",
     version="1.0.0",
     author="Gregory Betti",
     author_email="gorygrey@protonmail.com",
-    description="Advanced semantic compression through recursive symbolic pattern recognition",
+    description="Semantic, lossless memory backend for MCP agents using FRACKTAL engine",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
     url="https://github.com/Betti-Labs/FRACKTAL",

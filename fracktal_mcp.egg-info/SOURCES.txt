@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+fracktal/__init__.py
+fracktal/cli.py
+fracktal/core.py
+fracktal/models.py
+fracktal/recursive_compression.py
+fracktal/utils.py
+fracktal_mcp.egg-info/PKG-INFO
+fracktal_mcp.egg-info/SOURCES.txt
+fracktal_mcp.egg-info/dependency_links.txt
+fracktal_mcp.egg-info/entry_points.txt
+fracktal_mcp.egg-info/requires.txt
+fracktal_mcp.egg-info/top_level.txt
+tests/test_frsoe.py
+tests/test_mcp_integration.py
