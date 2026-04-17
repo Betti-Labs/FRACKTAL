@@ -13,7 +13,10 @@ import tempfile
 import shutil
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-import plotly.graph_objects as go
+try:
+    import plotly.graph_objects as go
+except ImportError:  # pragma: no cover - optional dependency
+    go = None
 
 from fracktal import FRSOE, SymbolicEngine, CodexMap, SymbolicTree, FractalHash
 from fracktal.utils import entropy_analysis, visualize_tree, generate_codex
@@ -355,6 +358,7 @@ class TestUtils(unittest.TestCase):
         # Should have results for each hash depth
         self.assertEqual(len(analysis["fractal_entropies"]), len(analysis["hash_depths"]))
         
+    @unittest.skipIf(go is None, "plotly is not installed")
     def test_visualize_tree(self):
         """Test tree visualization."""
         fig = visualize_tree(self.codex_map.symbolic_tree)

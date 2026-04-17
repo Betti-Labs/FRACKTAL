@@ -22,6 +22,12 @@ Fracktal MCP is a local, plug-and-play MCP server that turns every agent action-
 ```bash
 git clone https://github.com/GoryGrey/Fracktal-MCP.git
 cd Fracktal-MCP
+python -m venv .venv
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
+# macOS / Linux
+# source .venv/bin/activate
+
 pip install -e .
 
 # run the MCP server locally
@@ -50,6 +56,16 @@ export FRACKTAL_ENABLE_EMBEDDINGS=1
 # optional: override model
 export FRACKTAL_EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 ```
+
+Optional extras:
+
+```bash
+pip install -e .[dev]   # pytest, notebooks, formatting tools
+pip install -e .[viz]   # matplotlib, seaborn, plotly, graphviz
+pip install -e .[full]  # everything above
+```
+
+Storage location can be overridden with `FRACKTAL_STORAGE_DIR=/path/to/memories`.
 
 ---
 
@@ -129,7 +145,11 @@ Weights are tuned to favor structural matches while still surfacing lexical/vect
 python -m pytest
 ```
 
-32 tests cover the FRSOE primitives and the full project-aware MCP flow (lossless storage, hybrid search filters, working-set restore, optimizer).
+The automated suite covers:
+
+- FRSOE primitives and lossless reconstruction.
+- Project-aware MCP flows including storage, filters, checkpoints, and working-set restore.
+- Recovery from a missing `index.json` by rebuilding metadata from stored codices.
 
 ### Stress & throughput profiling
 
@@ -164,6 +184,33 @@ Sample output (reproducible, uses SHA256 equality to prove lossless storage):
 
 Use this harness in CI to catch regressions in lossless recall or hybrid ranking.
 
+### Local LLM context benchmark
+
+With Ollama running locally, compare full-history prompting against Fracktal-assisted context retrieval:
+
+```bash
+python benchmarks/run_ollama_context_benchmark.py --model qwen2.5-coder:1.5b --output ollama_context_benchmark.json
+python benchmarks/run_ollama_context_stress.py --models qwen2.5-coder:1.5b,llama3.2:1b --trials 2 --noise-profiles 24:12 80:40 --output ollama_context_stress.json
+```
+
+These scripts record actual Ollama counters such as `prompt_eval_count` and `eval_count`, so token-usage comparisons are measured from the model runtime rather than estimated offline.
+
+### Release smoke checklist
+
+```bash
+python -m pip install -e .[dev]
+python -m pytest
+python benchmarks/run_benchmarks.py --storage-dir tmp_bench --output bench_report.json
+python -m mcp_server.server
+```
+
+Before shipping, verify:
+
+- install works in a fresh virtualenv
+- `restore_working_set` returns the expected checkpoint and recent events
+- the chosen storage directory is writable
+- optional embedding mode is either enabled and tested or explicitly left off
+
 ---
 
 ## Architecture snapshot
@@ -181,6 +228,8 @@ Because everything is append-only and hashed, you can rebuild indexes safely or 
 
 - **docs/mcp_usage.md** - Agent integration guide, recommended tool policies, and JSON examples.
 - **docs/concepts.md** - A deeper look at FRSOE symbolism, fractal hashing, and entropy preservation.
+- **docs/ollama_benchmark_report.md** - Overnight local-model benchmark results, token-savings summary, and failure analysis.
+- **docs/release_readiness.md** - Pre-release checklist for install, verification, smoke tests, and persistence recovery.
 - Stress/benchmark scripts - `stress_test_demo.py`, `benchmarks/run_benchmarks.py`.
 
 Contributions are welcome via standard GitHub PRs; see `CONTRIBUTING.md`.

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+bench_report.json
+ollama_context_benchmark.json
+ollama_context_stress*.json
+ollama_context_trial*.json
+ollama_overnight_*.json
+tmp_bench/
+tmp_smoke_store/
+tmp_rebuild_check/
+.ollama_context_bench*/
+.ollama_context_heavy_qwen_trial*/
+.ollama_context_stress*/
+.ollama_overnight_context*/

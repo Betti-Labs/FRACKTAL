@@ -1,4 +1,5 @@
 import json
+import os
 from typing import List, Optional
 
 from mcp.server.fastmcp import FastMCP
@@ -9,7 +10,7 @@ from .memory_store import MemoryStore
 mcp = FastMCP("Fracktal Memory Backend")
 
 # Initialize Memory Store (default location inside repo)
-store = MemoryStore(storage_dir="fracktal_memories")
+store = MemoryStore(storage_dir=os.getenv("FRACKTAL_STORAGE_DIR", "fracktal_memories"))
 
 
 @mcp.tool()

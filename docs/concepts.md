@@ -252,10 +252,11 @@ FRSOE works with any structured data:
 
 ## 📚 Further Reading
 
-- [FRSOE Research Paper](FRSOE_Paper_BettiLabs.md)
-- [API Reference](api.md)
-- [Examples and Demos](examples/)
-- [Interactive Notebooks](demos/)
+- [FRSOE Research Paper](../FRSOE_Paper_BettiLabs.md)
+- [MCP Integration Guide](./mcp_usage.md)
+- [Release Readiness Checklist](./release_readiness.md)
+- [Examples](../examples/)
+- [Interactive Notebooks](../demos/)
 
 ---
 

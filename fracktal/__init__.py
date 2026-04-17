@@ -15,7 +15,7 @@ try:
 except ImportError:
     _has_utils = False
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __author__ = "Gregory Betti - Betti Labs"
 __email__ = "gorygrey@protonmail.com"
 

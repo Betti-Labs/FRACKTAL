@@ -138,16 +138,20 @@ class MemoryStore:
     def _load_index(self) -> None:
         if self.index_file.exists():
             try:
-                with open(self.index_file, "r") as f:
+                with open(self.index_file, "r", encoding="utf-8") as f:
                     self.memory_index = json.load(f)
             except json.JSONDecodeError:
-                self.memory_index = {}
+                self.memory_index = self._rebuild_index_from_codices()
         else:
-            self.memory_index = {}
+            self.memory_index = self._rebuild_index_from_codices()
 
         for record in self.memory_index.values():
             record.setdefault("text", record.get("preview", ""))
             metadata = record.get("metadata", {})
+            metadata.setdefault("id", record.get("id"))
+            metadata.setdefault("timestamp", 0.0)
+            metadata.setdefault("session_id", None)
+            metadata.setdefault("kind", "text")
             metadata.setdefault("project_id", None)
             metadata.setdefault("event_type", "note")
             metadata.setdefault("tags", [])
@@ -157,9 +161,61 @@ class MemoryStore:
             metadata.setdefault("extra", {})
             record["metadata"] = metadata
 
+    def _rebuild_index_from_codices(self) -> Dict[str, Dict[str, Any]]:
+        rebuilt_index: Dict[str, Dict[str, Any]] = {}
+        for codex_path in sorted(self.storage_dir.glob("*.json")):
+            if codex_path.name == self.index_file.name:
+                continue
+            try:
+                with open(codex_path, "r", encoding="utf-8") as f:
+                    payload = json.load(f)
+            except (OSError, json.JSONDecodeError, TypeError, ValueError):
+                continue
+
+            codex_dict = payload.get("frsoe_codex") or {}
+            metadata = codex_dict.get("metadata") or {}
+            memory_id = metadata.get("id") or codex_path.stem
+            content = payload.get("original_data", "")
+            rebuilt_index[memory_id] = {
+                "metadata": {
+                    "id": memory_id,
+                    "timestamp": metadata.get("timestamp", codex_path.stat().st_mtime),
+                    "session_id": metadata.get("session_id"),
+                    "project_id": metadata.get("project_id"),
+                    "kind": metadata.get("kind", "text"),
+                    "event_type": metadata.get("event_type", "note"),
+                    "tags": metadata.get("tags", []),
+                    "source": metadata.get("source"),
+                    "path": metadata.get("path"),
+                    "summary": metadata.get("summary"),
+                    "extra": metadata.get("extra", {}),
+                },
+                "symbols": sorted(list((codex_dict.get("symbol_frequency") or {}).keys())),
+                "codex_path": codex_path.name,
+                "preview": content[:200],
+                "text": content,
+            }
+
+        if rebuilt_index:
+            self.memory_index = rebuilt_index
+            self._save_index()
+        return rebuilt_index
+
     def _save_index(self) -> None:
-        with open(self.index_file, "w") as f:
-            json.dump(self.memory_index, f, indent=2)
+        self._write_json(self.index_file, self.memory_index)
+
+    def _write_json(self, path: Path, payload: Dict[str, Any]) -> None:
+        temp_path = path.with_suffix(f"{path.suffix}.tmp")
+        with open(temp_path, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, default=str)
+        for attempt in range(5):
+            try:
+                os.replace(temp_path, path)
+                return
+            except PermissionError:
+                if attempt == 4:
+                    raise
+                time.sleep(0.1 * (attempt + 1))
 
     def _filter_records(
         self,
@@ -304,6 +360,8 @@ class MemoryStore:
         }
 
         codex_dict = codex_map.to_dict()
+        codex_dict["metadata"] = asdict(metadata)
+        codex_dict["symbol_frequency"] = codex_map.get_symbol_frequency()
         saveable_data = {
             "original_data": compressed_result["original_data"],
             "frsoe_codex": codex_dict,
@@ -312,8 +370,7 @@ class MemoryStore:
         }
 
         codex_path = self.storage_dir / f"{memory_id}.json"
-        with open(codex_path, "w") as f:
-            json.dump(saveable_data, f, indent=2, default=str)
+        self._write_json(codex_path, saveable_data)
 
         self.memory_index[memory_id] = memory_record
         self._save_index()
@@ -330,7 +387,7 @@ class MemoryStore:
         if not codex_path.exists():
             return None
 
-        with open(codex_path, "r") as f:
+        with open(codex_path, "r", encoding="utf-8") as f:
             full_compressed_data = json.load(f)
 
         from fracktal.models import CodexMap, SymbolicTree

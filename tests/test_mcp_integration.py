@@ -54,3 +54,28 @@ def test_project_aware_flow(tmp_path):
     assert stats["projects"][project_id] >= 5
     optimize = store.optimize_corpus()
     assert optimize["optimized"] is True
+
+
+def test_index_rebuild_from_codices(tmp_path):
+    storage_dir = tmp_path / "memories"
+    store = MemoryStore(storage_dir=str(storage_dir), enable_embeddings=False)
+
+    memory_id = store.store_memory(
+        "Recovered note content",
+        tags=["rebuild"],
+        session_id="session-rebuild",
+        kind="note",
+        project_id="proj-rebuild",
+        summary="Rebuild test",
+    )
+
+    index_file = storage_dir / "index.json"
+    index_file.unlink()
+
+    rebuilt_store = MemoryStore(storage_dir=str(storage_dir), enable_embeddings=False)
+    retrieved = rebuilt_store.retrieve_memory(memory_id)
+
+    assert retrieved is not None
+    assert retrieved["content"] == "Recovered note content"
+    assert retrieved["metadata"]["project_id"] == "proj-rebuild"
+    assert index_file.exists()

@@ -15,13 +15,13 @@ def read_requirements():
 
 setup(
     name="fracktal-mcp",
-    version="1.0.0",
+    version="1.0.1",
     author="Gregory Betti",
     author_email="gorygrey@protonmail.com",
     description="Semantic, lossless memory backend for MCP agents using FRACKTAL engine",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/Betti-Labs/FRACKTAL",
+    url="https://github.com/GoryGrey/Fracktal-MCP",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -35,6 +35,7 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
         "Topic :: Scientific/Engineering :: Information Analysis",
         "Topic :: System :: Archiving :: Compression",
         "Topic :: Software Development :: Libraries :: Python Modules",
@@ -102,9 +103,9 @@ setup(
         "knowledge-representation",
     ],
     project_urls={
-        "Bug Reports": "https://github.com/Betti-Labs/FRACKTAL/issues",
-        "Source": "https://github.com/Betti-Labs/FRACKTAL",
-        "Documentation": "https://github.com/Betti-Labs/FRACKTAL/tree/main/docs",
-        "Research Paper": "https://github.com/Betti-Labs/FRACKTAL/blob/main/FRSOE_Paper_BettiLabs.md",
+        "Bug Reports": "https://github.com/GoryGrey/Fracktal-MCP/issues",
+        "Source": "https://github.com/GoryGrey/Fracktal-MCP",
+        "Documentation": "https://github.com/GoryGrey/Fracktal-MCP/tree/main/docs",
+        "Research Paper": "https://github.com/GoryGrey/Fracktal-MCP/blob/main/FRSOE_Paper_BettiLabs.md",
     },
-) 
+)

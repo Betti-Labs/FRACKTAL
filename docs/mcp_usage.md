@@ -24,6 +24,11 @@ Every stored artifact is losslessly compressed via FRACKTAL and can be reconstru
    ```bash
    git clone https://github.com/GoryGrey/Fracktal-MCP.git
    cd Fracktal-MCP
+   python -m venv .venv
+   # Windows PowerShell
+   .venv\Scripts\Activate.ps1
+   # macOS / Linux
+   # source .venv/bin/activate
    pip install -e .
    python -m mcp_server.server
    ```
@@ -40,7 +45,7 @@ Every stored artifact is losslessly compressed via FRACKTAL and can be reconstru
    }
    ```
 
-No additional infrastructure is required; the server writes to `fracktal_memories/` by default.
+No additional infrastructure is required; the server writes to `fracktal_memories/` by default. Set `FRACKTAL_STORAGE_DIR` to move the store elsewhere.
 
 ---
 
@@ -141,10 +146,28 @@ Filters can be combined to keep multiple repos isolated inside the same server i
 
 ## 6. Troubleshooting & tips
 
-- **Index rebuilds** – Deleting `fracktal_memories/index.json` forces a clean rebuild on next launch; raw codices remain intact.
+- **Index rebuilds** – If `fracktal_memories/index.json` is missing or corrupt, the server rebuilds it from the stored codex files on startup.
 - **Embeddings** – Install `sentence-transformers` and set `FRACKTAL_ENABLE_EMBEDDINGS=1` to include vector search; otherwise the server falls back to structural + BM25.
-- **Storage hygiene** – Old projects can be archived by moving their `.json` codices + updating `index.json`, or by running a second server with a different `--storage-dir`.
+- **Storage hygiene** – Old projects can be archived by moving a project’s codex files into another storage directory and pointing another server instance at that directory with `FRACKTAL_STORAGE_DIR`.
 - **CI verification** – `python benchmarks/run_benchmarks.py ...` is deterministic; run it in CI to ensure lossless recall and retrieval metrics stay healthy.
+
+## 7. Release-readiness checks
+
+Run these in a clean virtualenv before publishing:
+
+```bash
+python -m pip install -e .[dev]
+python -m pytest
+python benchmarks/run_benchmarks.py --storage-dir tmp_bench --output bench_report.json
+```
+
+Then do one manual smoke test in your MCP client:
+
+1. start the server
+2. call `store_memory`
+3. call `search_memories`
+4. call `create_checkpoint`
+5. call `restore_working_set`
 
 ---
 

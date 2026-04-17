@@ -1,19 +1,6 @@
-# Core dependencies (required)
+# Core runtime dependencies
 numpy>=1.21.0
 pandas>=1.3.0
-
-# Optional visualization dependencies
-matplotlib>=3.5.0
-seaborn>=0.11.0
-
-# Development and testing (optional)
-pytest>=6.0.0
-jupyter>=1.0.0
-ipywidgets>=7.0.0
-
-# CLI interface
-click>=8.0.0
-rich>=10.0.0
 
 # MCP Server
 mcp
